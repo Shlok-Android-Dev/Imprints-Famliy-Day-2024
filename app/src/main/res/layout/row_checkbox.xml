@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rlMainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:layout_marginRight="@dimen/dimen_10dp"
+            android:background="@drawable/border_layout"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/lblText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_10dp"
+                android:layout_marginTop="@dimen/dimen_15dp"
+                android:fontFamily="@font/sourcesansregular"
+
+                android:text="Label"
+                android:textColor="@color/txt_color"
+                android:textSize="@dimen/textsize"
+                android:visibility="gone"/>
+
+            <LinearLayout
+                android:id="@+id/llField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:id="@+id/container_checkbox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_10dp"
+                    android:layout_marginBottom="@dimen/dimen_10dp"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:id="@+id/llLeft"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_10dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"/>
+                <LinearLayout
+                    android:id="@+id/llRight"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen_10dp"
+                    android:layout_marginTop="@dimen/dimen_10dp"
+                    android:layout_weight=".50"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:visibility="gone"/>
+            </LinearLayout>
+
+
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/edEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_2dp"
+                android:background="@drawable/recatagular_drawable"
+                android:fontFamily="@font/sourcesanssemibold"
+                android:inputType="text"
+                android:padding="@dimen/dimen_10dp"
+                android:textColor="@color/txt_color"
+                android:textSize="@dimen/textsize"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/txtErrorEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:layout_marginTop="@dimen/dimen_2dp"
+            android:fontFamily="@font/sourcesansregular"
+
+            android:text="*required"
+            android:textColor="@color/red"
+            android:textSize="@dimen/textsize"
+            android:visibility="gone"/>
+        <View
+            android:id="@+id/ivline"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_0dp"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:background="@color/grey"/>
+
+    </LinearLayout>
+</layout>

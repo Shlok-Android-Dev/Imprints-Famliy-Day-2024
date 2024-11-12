@@ -1,0 +1,246 @@
+{
+  "project_info": {
+    "project_number": "843700996571",
+    "firebase_url": "https://mumbai-ethnic-expo---eventbot-default-rtdb.firebaseio.com",
+    "project_id": "mumbai-ethnic-expo---eventbot",
+    "storage_bucket": "mumbai-ethnic-expo---eventbot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843700996571:android:f3b392484b6c259cb8bffe",
+        "android_client_info": {
+          "package_name": "com.amittank.web"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "843700996571-4qbaejs3ep9kcmak4k41le6ua8fnhb7m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr0qGQjLcPZwl3Q6Uk12CsmvRjU4XSp0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "843700996571-4qbaejs3ep9kcmak4k41le6ua8fnhb7m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843700996571:android:0715991ee27c959eb8bffe",
+        "android_client_info": {
+          "package_name": "com.appstore.dreamcast"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "843700996571-uu8v7ape6n9bp3ck2lu90lgqi43tkrsb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appstore.dreamcast",
+            "certificate_hash": "d44045e3dadbcb03017eb9eea840c8b9b547f9c3"
+          }
+        },
+        {
+          "client_id": "843700996571-4qbaejs3ep9kcmak4k41le6ua8fnhb7m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr0qGQjLcPZwl3Q6Uk12CsmvRjU4XSp0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "843700996571-4qbaejs3ep9kcmak4k41le6ua8fnhb7m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843700996571:android:e8587943977d6134b8bffe",
+        "android_client_info": {
+          "package_name": "com.imprints_family_day"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "843700996571-g6bm1lmocilk0ni59uulj46nuklvtjla.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.imprints_family_day",
+            "certificate_hash": "d44045e3dadbcb03017eb9eea840c8b9b547f9c3"
+          }
+        },
+        {
+          "client_id": "843700996571-4qbaejs3ep9kcmak4k41le6ua8fnhb7m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr0qGQjLcPZwl3Q6Uk12CsmvRjU4XSp0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "843700996571-4qbaejs3ep9kcmak4k41le6ua8fnhb7m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843700996571:android:b7dfbcdbdf948909b8bffe",
+        "android_client_info": {
+          "package_name": "com.imprints_family_day.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "843700996571-4afch1lltar271uu933t8a004l8fge8f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.imprints_family_day.test",
+            "certificate_hash": "d44045e3dadbcb03017eb9eea840c8b9b547f9c3"
+          }
+        },
+        {
+          "client_id": "843700996571-4qbaejs3ep9kcmak4k41le6ua8fnhb7m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr0qGQjLcPZwl3Q6Uk12CsmvRjU4XSp0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "843700996571-4qbaejs3ep9kcmak4k41le6ua8fnhb7m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843700996571:android:5eb4e628e4f66f51b8bffe",
+        "android_client_info": {
+          "package_name": "com.mumbai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "843700996571-kb4p9j4p9q9c7mbb87i9pbff540kdad8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mumbai",
+            "certificate_hash": "d44045e3dadbcb03017eb9eea840c8b9b547f9c3"
+          }
+        },
+        {
+          "client_id": "843700996571-4qbaejs3ep9kcmak4k41le6ua8fnhb7m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr0qGQjLcPZwl3Q6Uk12CsmvRjU4XSp0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "843700996571-4qbaejs3ep9kcmak4k41le6ua8fnhb7m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843700996571:android:0fce05ad5076ee97b8bffe",
+        "android_client_info": {
+          "package_name": "com.tata.quiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "843700996571-4qbaejs3ep9kcmak4k41le6ua8fnhb7m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr0qGQjLcPZwl3Q6Uk12CsmvRjU4XSp0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "843700996571-4qbaejs3ep9kcmak4k41le6ua8fnhb7m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843700996571:android:6bb2ce02ce955aa4b8bffe",
+        "android_client_info": {
+          "package_name": "com.webcontxt.SlingshotGreenlamEvent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "843700996571-4qbaejs3ep9kcmak4k41le6ua8fnhb7m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr0qGQjLcPZwl3Q6Uk12CsmvRjU4XSp0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "843700996571-4qbaejs3ep9kcmak4k41le6ua8fnhb7m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

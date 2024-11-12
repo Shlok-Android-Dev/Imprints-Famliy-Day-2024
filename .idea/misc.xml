@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/shlok/Android Project Chipmunk/imprints_famliy_day_2024-main/app/src/main/res/drawable/round_corner_10_stroke_dots_line.xml" value="0.1105" />
+        <entry key="..\:/Users/shlok/Android Project Chipmunk/imprints_famliy_day_2024-main/app/src/main/res/layout/activity_diy_onspot.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/shlok/Android Project Chipmunk/imprints_famliy_day_2024-main/app/src/main/res/layout/activity_diy_scanner.xml" value="0.24682971014492755" />
+        <entry key="..\:/Users/shlok/Android Project Chipmunk/imprints_famliy_day_2024-main/app/src/main/res/layout/activity_entry.xml" value="0.2427536231884058" />
+        <entry key="..\:/Users/shlok/Android Project Chipmunk/imprints_famliy_day_2024-main/app/src/main/res/layout/activity_entry_diy.xml" value="0.1671195652173913" />
+        <entry key="..\:/Users/shlok/Android Project Chipmunk/imprints_famliy_day_2024-main/app/src/main/res/layout/activity_home_idec.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/shlok/Android Project Chipmunk/imprints_famliy_day_2024-main/app/src/main/res/layout/dialog_success.xml" value="0.24682971014492755" />
+        <entry key="..\:/Users/shlok/Android Project Chipmunk/imprints_famliy_day_2024-main/app/src/main/res/layout/member1.xml" value="0.24682971014492755" />
+        <entry key="..\:/Users/shlok/Android Project Chipmunk/imprints_famliy_day_2024-main/app/src/main/res/layout/row_userlist.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/shlok/Android Project Chipmunk/imprints_famliy_day_2024-main/app/src/main/res/layout/row_userlist_k2_list.xml" value="0.22916666666666666" />
+        <entry key="app/src/main/res/layout/activity_home_idec.xml" value="0.23097826086956522" />
+        <entry key="app/src/main/res/layout/layout_member.xml" value="0.15476190476190477" />
+        <entry key="app/src/main/res/layout/row_userlist.xml" value="0.23097826086956522" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio java home" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlMainLayout"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+
+    <LinearLayout
+
+
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_10dp"
+        android:visibility="visible">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_5dp"
+            android:layout_weight="0.3"
+
+            android:visibility="visible">
+            <com.rilixtech.widget.countrycodepicker.CountryCodePicker
+                android:id="@+id/ccp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/border_layout"
+                android:gravity="center"
+                app:ccp_defaultNameCode="US"
+                app:ccp_textColor="@color/black"
+
+                app:ccp_textSize="14sp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_weight=".70"
+
+            android:orientation="vertical"
+            android:weightSum="1">
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/inputLayoutMobile"
+                style="@style/TextLabel"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_70dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dimen_5dp"
+                android:layout_marginRight="@dimen/dimen_10dp"
+                android:hint="Phone"
+                android:textColorHint="@color/xd_grey"
+                app:boxCornerRadiusBottomEnd="8dp"
+
+                app:boxCornerRadiusBottomStart="8dp"
+                app:boxCornerRadiusTopEnd="8dp"
+                app:boxCornerRadiusTopStart="8dp"
+                app:hintTextColor="@color/color2"
+                >
+
+                <EditText
+                    android:id="@+id/ed_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_60dp"
+                    android:inputType="number"
+                    android:paddingLeft="@dimen/dimen_8dp"
+                    android:paddingRight="@dimen/dimen_10dp"
+                    android:singleLine="true"
+                    android:textColorHint="@color/xd_grey"
+                    android:textSize="@dimen/textsize"
+                    app:hintTextColor="@color/xd_grey" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+    <TextView
+        android:id="@+id/txtErrorEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_10dp"
+        android:layout_marginTop="@dimen/dimen_2dp"
+        android:fontFamily="@font/sourcesansregular"
+        android:text="*required"
+        android:textColor="@color/red"
+        android:textSize="@dimen/txtSize"
+        android:visibility="gone"/>
+
+    <View
+        android:id="@+id/ivline"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_0dp"
+        android:layout_marginTop="@dimen/dimen_10dp"
+        android:background="@color/grey"/>
+
+</LinearLayout>
+</layout>

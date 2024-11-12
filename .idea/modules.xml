@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/imprints_famliy_day_2024-main.iml" filepath="$PROJECT_DIR$/.idea/modules/imprints_famliy_day_2024-main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/imprints_famliy_day_2024-main.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/imprints_famliy_day_2024-main.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/imprints_famliy_day_2024-main.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/imprints_famliy_day_2024-main.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/imprints_famliy_day_2024-main.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/imprints_famliy_day_2024-main.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/imprints_famliy_day_2024-main.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/imprints_famliy_day_2024-main.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/countrycodepicker/imprints_famliy_day_2024-main.countrycodepicker.iml" filepath="$PROJECT_DIR$/.idea/modules/countrycodepicker/imprints_famliy_day_2024-main.countrycodepicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/countrycodepicker/imprints_famliy_day_2024-main.countrycodepicker.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/countrycodepicker/imprints_famliy_day_2024-main.countrycodepicker.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/countrycodepicker/imprints_famliy_day_2024-main.countrycodepicker.main.iml" filepath="$PROJECT_DIR$/.idea/modules/countrycodepicker/imprints_famliy_day_2024-main.countrycodepicker.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/countrycodepicker/imprints_famliy_day_2024-main.countrycodepicker.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/countrycodepicker/imprints_famliy_day_2024-main.countrycodepicker.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/textfieldboxes/imprints_famliy_day_2024-main.textfieldboxes.iml" filepath="$PROJECT_DIR$/.idea/modules/textfieldboxes/imprints_famliy_day_2024-main.textfieldboxes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zxing-android-embedded/imprints_famliy_day_2024-main.zxing-android-embedded.iml" filepath="$PROJECT_DIR$/.idea/modules/zxing-android-embedded/imprints_famliy_day_2024-main.zxing-android-embedded.iml" />
+    </modules>
+  </component>
+</project>

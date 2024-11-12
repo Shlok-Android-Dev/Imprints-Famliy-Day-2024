@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray1">
+        <TextView
+            android:id="@+id/member_qty"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimen_50dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/dimen_20dp"
+            android:text="Member 1"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+
+            />
+
+        <ImageView
+            android:id="@+id/cross"
+            android:layout_width="@dimen/dimen_25dp"
+            android:layout_height="@dimen/dimen_25dp"
+
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dimen_20dp"
+            android:src="@drawable/cross_sign"
+            app:tint="@color/black" />
+
+    </RelativeLayout>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/inputLayoutNAme"
+        style="@style/TextLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/dimen_10dp"
+        android:layout_marginTop="@dimen/dimen_10dp"
+        android:layout_marginRight="@dimen/dimen_10dp"
+        android:hint="Name"
+        android:textColorHint="@color/black"
+        app:boxCornerRadiusBottomEnd="8dp"
+        app:boxCornerRadiusBottomStart="8dp"
+        app:boxCornerRadiusTopEnd="8dp"
+        app:boxCornerRadiusTopStart="8dp"
+        app:hintTextColor="@color/black"
+        android:visibility="gone"
+
+        >
+
+        <EditText
+            android:id="@+id/ed_name"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_60dp"
+
+            android:paddingLeft="@dimen/dimen_8dp"
+            android:paddingTop="@dimen/dimen_8dp"
+            android:paddingRight="@dimen/dimen_70dp"
+            android:paddingBottom="@dimen/dimen_8dp"
+            android:singleLine="true"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/textsize"
+            app:hintTextColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/warning_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_10dp"
+        android:text="* required "
+        android:textColor="@color/solid_red"
+        android:textSize="@dimen/txtSizesmall"
+        android:visibility="gone"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/inputLayoutlNAme"
+        style="@style/TextLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/dimen_10dp"
+        android:layout_marginTop="@dimen/dimen_10dp"
+        android:layout_marginRight="@dimen/dimen_10dp"
+        android:hint="Last Name"
+        android:textColorHint="@color/black"
+        android:visibility="gone"
+        app:boxCornerRadiusBottomEnd="8dp"
+        app:boxCornerRadiusBottomStart="8dp"
+        app:boxCornerRadiusTopEnd="8dp"
+        app:boxCornerRadiusTopStart="8dp"
+        app:hintTextColor="@color/black"
+        >
+
+        <EditText
+            android:id="@+id/ed_last_name"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_60dp"
+
+            android:paddingLeft="@dimen/dimen_8dp"
+            android:paddingTop="@dimen/dimen_8dp"
+            android:paddingRight="@dimen/dimen_70dp"
+            android:paddingBottom="@dimen/dimen_8dp"
+            android:singleLine="true"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/textsize"
+            app:hintTextColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/warning_lastt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_10dp"
+        android:text="* required "
+        android:textColor="@color/solid_red"
+        android:textSize="@dimen/txtSizesmall"
+        android:visibility="gone"
+        />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputLayoutEmail"
+        style="@style/TextLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/dimen_10dp"
+        android:layout_marginTop="@dimen/dimen_5dp"
+        android:layout_marginRight="@dimen/dimen_10dp"
+        android:hint="Email"
+        android:textColorHint="@color/black"
+        android:visibility="gone"
+        app:boxCornerRadiusBottomEnd="8dp"
+        app:boxCornerRadiusBottomStart="8dp"
+        app:boxCornerRadiusTopEnd="8dp"
+        app:boxCornerRadiusTopStart="8dp"
+        app:hintTextColor="@color/black"
+        >
+
+        <EditText
+            android:id="@+id/ed_email"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_60dp"
+
+            android:inputType="textEmailAddress"
+            android:paddingLeft="@dimen/dimen_8dp"
+            android:paddingTop="@dimen/dimen_8dp"
+            android:paddingRight="@dimen/dimen_70dp"
+            android:paddingBottom="@dimen/dimen_8dp"
+            android:singleLine="true"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/textsize"
+            app:hintTextColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <TextView
+        android:id="@+id/warning_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_10dp"
+        android:text="* required"
+        android:textColor="@color/solid_red"
+        android:textSize="@dimen/txtSizesmall"
+        android:visibility="gone"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_5dp"
+        android:paddingBottom="@dimen/dimen_5dp"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:layout_marginTop="@dimen/dimen_3dp"
+            android:layout_weight="0.3"
+            android:background="@drawable/border_layout"
+            android:visibility="visible">
+            <com.rilixtech.widget.countrycodepicker.CountryCodePicker
+                android:id="@+id/ccp"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dimen_60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/bottom_selected"
+                android:gravity="center"
+                android:padding="12dp"
+                app:ccp_defaultNameCode="IN"
+                app:ccp_hideNameCode="true"
+                app:ccp_hidePhoneCode="false"
+                app:ccp_textColor="@color/black"
+                app:ccp_textSize="17sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dimen_70dp"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+
+            android:layout_weight=".70"
+
+            android:orientation="vertical"
+            android:weightSum="1">
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/inputLayoutMobile"
+                style="@style/TextLabel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="-3dp"
+                android:layout_marginRight="@dimen/dimen_10dp"
+                android:hint="Phone"
+                android:textColorHint="@color/black"
+                app:boxCornerRadiusBottomEnd="8dp"
+                app:boxCornerRadiusBottomStart="8dp"
+                app:boxCornerRadiusTopEnd="8dp"
+                app:boxCornerRadiusTopStart="8dp"
+                app:hintTextColor="@color/black"
+                >
+
+                <EditText
+                    android:id="@+id/ed_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_60dp"
+                    android:inputType="number"
+                    android:paddingLeft="@dimen/dimen_8dp"
+                    android:paddingRight="@dimen/dimen_70dp"
+                    android:paddingBottom="@dimen/dimen_8dp"
+                    android:singleLine="true"
+                    android:textColorHint="@color/black"
+
+                    android:textSize="@dimen/textsize"
+                    app:hintTextColor="@color/black" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/warning_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_10dp"
+        android:text="* required"
+        android:textColor="@color/solid_red"
+        android:textSize="@dimen/txtSizesmall"
+        android:visibility="gone"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/inputLayoutAddGSTNO"
+        style="@style/TextLabel"
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/dimen_10dp"
+        android:layout_marginRight="@dimen/dimen_10dp"
+        android:hint="Company"
+        android:textColorHint="@color/black"
+        android:visibility="gone"
+        app:boxCornerRadiusBottomEnd="8dp"
+        app:boxCornerRadiusBottomStart="8dp"
+        app:boxCornerRadiusTopEnd="8dp"
+        app:boxCornerRadiusTopStart="8dp"
+        app:hintTextColor="@color/black"
+        >
+
+        <EditText
+            android:id="@+id/ed_city"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_60dp"
+            android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890 "
+            android:maxLength="15"
+            android:paddingLeft="@dimen/dimen_8dp"
+            android:paddingTop="@dimen/dimen_8dp"
+            android:paddingRight="@dimen/dimen_70dp"
+            android:paddingBottom="@dimen/dimen_8dp"
+            android:singleLine="true"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/textsize"
+            app:hintTextColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/warning_AddGSTNO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_10dp"
+        android:text="* required"
+        android:textColor="@color/solid_red"
+        android:textSize="@dimen/txtSizesmall"
+        android:visibility="gone"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/inputLayoutEmplyeeCode"
+        style="@style/TextLabel"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/dimen_10dp"
+        android:layout_marginRight="@dimen/dimen_10dp"
+        android:hint="Employee Code"
+        android:textColorHint="@color/black"
+        android:visibility="gone"
+        app:boxCornerRadiusBottomEnd="8dp"
+        app:boxCornerRadiusBottomStart="8dp"
+        app:boxCornerRadiusTopEnd="8dp"
+        app:boxCornerRadiusTopStart="8dp"
+        app:hintTextColor="@color/black"
+        >
+
+        <EditText
+            android:id="@+id/EmployeeCode"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_60dp"
+            android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890 "
+            android:maxLength="15"
+            android:paddingLeft="@dimen/dimen_8dp"
+            android:paddingTop="@dimen/dimen_8dp"
+            android:paddingRight="@dimen/dimen_70dp"
+            android:paddingBottom="@dimen/dimen_8dp"
+            android:singleLine="true"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/textsize"
+            app:hintTextColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/warning_Employee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_10dp"
+        android:text="* required"
+        android:textColor="@color/solid_red"
+        android:textSize="@dimen/txtSizesmall"
+        android:visibility="gone"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/inputLayoutLocation"
+        style="@style/TextLabel"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/dimen_10dp"
+        android:layout_marginRight="@dimen/dimen_10dp"
+        android:hint="Location"
+        android:textColorHint="@color/black"
+        android:visibility="gone"
+        app:boxCornerRadiusBottomEnd="8dp"
+        app:boxCornerRadiusBottomStart="8dp"
+        app:boxCornerRadiusTopEnd="8dp"
+        app:boxCornerRadiusTopStart="8dp"
+        app:hintTextColor="@color/black"
+        >
+
+        <EditText
+            android:id="@+id/Location"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_60dp"
+            android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890 "
+            android:maxLength="15"
+            android:paddingLeft="@dimen/dimen_8dp"
+            android:paddingTop="@dimen/dimen_8dp"
+            android:paddingRight="@dimen/dimen_70dp"
+            android:paddingBottom="@dimen/dimen_8dp"
+            android:singleLine="true"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/textsize"
+            app:hintTextColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/warning_Location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_10dp"
+        android:text="* required"
+        android:textColor="@color/solid_red"
+        android:textSize="@dimen/txtSizesmall"
+        android:visibility="gone"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/inputLayoutVehicleNO"
+        style="@style/TextLabel"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginVertical="@dimen/dimen_8dp"
+        android:layout_marginLeft="@dimen/dimen_10dp"
+        android:layout_marginRight="@dimen/dimen_10dp"
+        android:hint="Age"
+        android:visibility="gone"
+        android:textColorHint="@color/black"
+
+        app:boxCornerRadiusBottomEnd="8dp"
+        app:boxCornerRadiusBottomStart="8dp"
+        app:boxCornerRadiusTopEnd="8dp"
+        app:boxCornerRadiusTopStart="8dp"
+        app:hintTextColor="@color/black"
+        >
+
+        <EditText
+            android:id="@+id/VehicleNO"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_60dp"
+            android:digits="1234567890"
+            android:inputType="number"
+            android:maxLength="2"
+            android:paddingLeft="@dimen/dimen_8dp"
+            android:paddingTop="@dimen/dimen_8dp"
+            android:paddingRight="@dimen/dimen_70dp"
+            android:paddingBottom="@dimen/dimen_8dp"
+            android:singleLine="true"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/textsize"
+            app:hintTextColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/warning_VehicleNO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_10dp"
+        android:text="* required"
+        android:textColor="@color/solid_red"
+        android:textSize="@dimen/txtSizesmall"
+        android:visibility="gone"
+        />
+
+
+    <com.chivorn.smartmaterialspinner.SmartMaterialSpinner
+        android:id="@+id/spinner_Region"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_10dp"
+        android:layout_marginTop="@dimen/dimen_15dp"
+        android:layout_marginRight="@dimen/dimen_10dp"
+        android:visibility="visible"
+        app:smsp_autoSelectable="true"
+        app:smsp_enableFloatingLabel="true"
+        app:smsp_floatingLabelColor="#1976D2"
+        app:smsp_floatingLabelText="Gender"
+        app:smsp_hint="member"
+        app:smsp_hintColor="#000000"
+        app:smsp_isOutlined="true"
+        app:smsp_itemColor="@color/black"
+        app:smsp_itemListColor="@color/black"
+        app:smsp_itemListHintBackgroundColor="#808080"
+        app:smsp_itemListHintColor="@color/color_grey"
+        app:smsp_multilineError="false"
+        app:smsp_outlinedBoxColor="@color/black"
+        app:smsp_outlinedBoxRadius="8dp"
+        app:smsp_paddingLeftRight="@dimen/dimen_10dp"
+        app:smsp_selectedItemListColor="#FF5252" />
+
+    <TextView
+        android:id="@+id/warning_Region"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_10dp"
+        android:text="* required "
+        android:textColor="@color/solid_red"
+        android:textSize="@dimen/txtSizesmall"
+        android:visibility="gone"
+        />
+
+
+    <EditText
+        android:id="@+id/ed_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_60dp"
+        android:layout_marginTop="@dimen/dimen_10dp"
+        android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890 "
+        android:maxLength="15"
+        android:paddingLeft="@dimen/dimen_8dp"
+        android:paddingTop="@dimen/dimen_8dp"
+        android:paddingRight="@dimen/dimen_70dp"
+        android:paddingBottom="@dimen/dimen_8dp"
+        android:singleLine="true"
+        android:textColorHint="@color/black"
+        android:textSize="@dimen/textsize"
+        android:visibility="gone"
+        app:hintTextColor="@color/black" />
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/inputLayoutHotelName"
+        style="@style/TextLabel"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/dimen_10dp"
+        android:layout_marginRight="@dimen/dimen_10dp"
+        android:hint="Hotel Name"
+        android:textColorHint="@color/black"
+        android:visibility="gone"
+        app:boxCornerRadiusBottomEnd="8dp"
+        app:boxCornerRadiusBottomStart="8dp"
+        app:boxCornerRadiusTopEnd="8dp"
+        app:boxCornerRadiusTopStart="8dp"
+        app:hintTextColor="@color/black"
+        >
+
+        <EditText
+            android:id="@+id/HotelName"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_60dp"
+            android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890 "
+            android:maxLength="15"
+            android:paddingLeft="@dimen/dimen_8dp"
+            android:paddingTop="@dimen/dimen_8dp"
+            android:paddingRight="@dimen/dimen_70dp"
+            android:paddingBottom="@dimen/dimen_8dp"
+            android:singleLine="true"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/textsize"
+            app:hintTextColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/warning_HotelName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_10dp"
+        android:text="* required"
+        android:textColor="@color/solid_red"
+        android:textSize="@dimen/txtSizesmall"
+        android:visibility="gone"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/inputLayoutRelation"
+        style="@style/TextLabel"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/dimen_10dp"
+        android:layout_marginRight="@dimen/dimen_10dp"
+        android:hint="Relation"
+        android:textColorHint="@color/black"
+        android:visibility="gone"
+        app:boxCornerRadiusBottomEnd="8dp"
+        app:boxCornerRadiusBottomStart="8dp"
+        app:boxCornerRadiusTopEnd="8dp"
+        app:boxCornerRadiusTopStart="8dp"
+        app:hintTextColor="@color/black"
+        >
+
+        <EditText
+            android:id="@+id/Relation"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_60dp"
+            android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890 "
+            android:maxLength="15"
+            android:paddingLeft="@dimen/dimen_8dp"
+            android:paddingTop="@dimen/dimen_8dp"
+            android:paddingRight="@dimen/dimen_70dp"
+            android:paddingBottom="@dimen/dimen_8dp"
+            android:singleLine="true"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/textsize"
+            app:hintTextColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/warning_Relation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_10dp"
+        android:text="* required"
+        android:textColor="@color/solid_red"
+        android:textSize="@dimen/txtSizesmall"
+        android:visibility="gone"
+        />
+
+</LinearLayout>

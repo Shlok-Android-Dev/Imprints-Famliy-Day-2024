@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/consRootMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+    
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/consRoot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_corner10_solid_whitecolor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txtChoosePrinter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_15dp"
+            android:fontFamily="@font/popins_medium"
+            android:text="@string/choose_printer"
+            android:textColor="@color/primary_color"
+            android:textSize="@dimen/dimen_20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <RadioGroup
+            android:id="@+id/radios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="right"
+            android:layout_marginTop="@dimen/dimen_15dp"
+            android:inputType="text"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@+id/txtChoosePrinter">
+
+            <RadioButton
+                android:id="@+id/BrotherPrinter"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dimen_10dp"
+                android:background="@drawable/round_corner10_solid_listbg"
+                android:button="@null"
+                android:buttonTint="@color/primary_color"
+                android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                android:drawableTint="@color/primary_color"
+                android:layoutDirection="rtl"
+                android:paddingHorizontal="@dimen/dimen_15dp"
+                android:paddingVertical="@dimen/dimen_10dp"
+                android:text="@string/brother_printer"
+                android:textAlignment="textStart"
+                android:textColor="@color/black2"
+                android:textSize="@dimen/dimen_18sp" />
+
+            <RadioButton
+                android:id="@+id/sunmi_v2_s_plusPrinter"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dimen_10dp"
+                android:layout_marginTop="@dimen/dimen_15dp"
+                android:background="@drawable/round_corner10_solid_listbg"
+                android:button="@null"
+                android:buttonTint="@color/primary_color"
+                android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                android:drawableTint="@color/primary_color"
+                android:layoutDirection="rtl"
+                android:paddingHorizontal="@dimen/dimen_15dp"
+                android:paddingVertical="@dimen/dimen_10dp"
+                android:text="@string/sunmiV2sPrinter_printer"
+                android:textAlignment="textStart"
+                android:textColor="@color/black2"
+                android:textSize="@dimen/dimen_18sp"/>
+
+            <RadioButton
+                android:id="@+id/OtherPrinter"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dimen_10dp"
+                android:layout_marginTop="@dimen/dimen_15dp"
+                android:background="@drawable/round_corner10_solid_listbg"
+                android:button="@null"
+                android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                android:drawableTint="@color/primary_color"
+                android:layoutDirection="rtl"
+                android:paddingHorizontal="@dimen/dimen_15dp"
+                android:paddingVertical="@dimen/dimen_10dp"
+                android:text="@string/other_printer"
+                android:textAlignment="textStart"
+                android:textColor="@color/black2"
+                android:textSize="@dimen/dimen_18sp"/>
+            <RadioButton
+                android:id="@+id/forK2MiniFirebase"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dimen_10dp"
+                android:layout_marginTop="@dimen/dimen_15dp"
+                android:background="@drawable/round_corner10_solid_listbg"
+                android:button="@null"
+                android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                android:drawableTint="@color/primary_color"
+                android:layoutDirection="rtl"
+                android:paddingHorizontal="@dimen/dimen_15dp"
+                android:paddingVertical="@dimen/dimen_10dp"
+                android:text="K2MINI Printing"
+                android:textAlignment="textStart"
+                android:textColor="@color/black2"
+                android:textSize="@dimen/dimen_18sp"
+                android:visibility="gone"/>
+            <RadioButton
+                android:id="@+id/forK2Mini"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dimen_10dp"
+                android:layout_marginTop="@dimen/dimen_15dp"
+                android:background="@drawable/round_corner10_solid_listbg"
+                android:button="@null"
+                android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                android:drawableTint="@color/primary_color"
+                android:layoutDirection="rtl"
+                android:paddingHorizontal="@dimen/dimen_15dp"
+                android:paddingVertical="@dimen/dimen_10dp"
+                android:text="TSC Printing"
+                android:textAlignment="textStart"
+                android:textColor="@color/black2"
+                android:textSize="@dimen/dimen_18sp"
+                android:visibility="visible"/>
+
+            <RadioButton
+                android:id="@+id/rdTVS"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dimen_10dp"
+                android:layout_marginTop="@dimen/dimen_15dp"
+                android:background="@drawable/round_corner10_solid_listbg"
+                android:button="@null"
+                android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                android:drawableTint="@color/primary_color"
+                android:layoutDirection="rtl"
+                android:paddingHorizontal="@dimen/dimen_15dp"
+                android:paddingVertical="@dimen/dimen_10dp"
+                android:text="TVS Electronic"
+                android:textAlignment="textStart"
+                android:textColor="@color/black2"
+                android:textSize="@dimen/dimen_18sp"
+                android:visibility="visible"/>
+        </RadioGroup>
+
+       <!-- <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/consBrotherPrinter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_15dp"
+            android:paddingHorizontal="@dimen/dimen_15dp"
+            android:layout_marginHorizontal="@dimen/dimen_10dp"
+            android:background="@drawable/round_corner10_solid_listbg"
+            app:layout_constraintTop_toBottomOf="@+id/txtChoosePrinter">
+
+            <TextView
+                android:id="@+id/txtBrotherPrinter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/brother_printer"
+                android:textSize="@dimen/dimen_18sp"
+                android:textColor="@color/black2"
+                android:fontFamily="@font/popins_medum"
+                android:paddingVertical="@dimen/dimen_10dp"
+                android:layout_marginVertical="@dimen/dimen_14dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+                <RadioButton
+                    android:id="@+id/radiobtnbrother"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/primary_color"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/consSunmiV2sPlus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_15dp"
+            android:paddingHorizontal="@dimen/dimen_15dp"
+            android:layout_marginHorizontal="@dimen/dimen_10dp"
+            android:background="@drawable/round_corner10_solid_listbg"
+            app:layout_constraintTop_toBottomOf="@+id/consBrotherPrinter">
+
+            <TextView
+                android:id="@+id/txtSunmiV2sPrinter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sunmiV2sPrinter_printer"
+                android:textSize="@dimen/dimen_18sp"
+                android:textColor="@color/black2"
+                android:fontFamily="@font/popins_medum"
+                android:paddingVertical="@dimen/dimen_10dp"
+                android:layout_marginVertical="@dimen/dimen_14dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+                <RadioButton
+                    android:id="@+id/radiobtntxtSunmiV2sPrinter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/primary_color"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/consOtherPrinter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_15dp"
+            android:layout_marginBottom="@dimen/dimen_15dp"
+            android:paddingHorizontal="@dimen/dimen_15dp"
+            android:layout_marginHorizontal="@dimen/dimen_10dp"
+            android:background="@drawable/round_corner10_solid_listbg"
+            app:layout_constraintTop_toBottomOf="@+id/consSunmiV2sPlus">
+
+            <TextView
+                android:id="@+id/txtOtherPrinter"
+                android:layout_width="@dimen/dimen_0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/other_printer"
+                android:textSize="@dimen/dimen_18sp"
+                android:textColor="@color/black2"
+                android:fontFamily="@font/popins_medum"
+                android:paddingVertical="@dimen/dimen_10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/radiobtnOther"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+
+                <RadioButton
+                    android:id="@+id/radiobtnOther"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/primary_color"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"/>
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSave"
+            android:layout_width="@dimen/dimen_0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dimen_15dp"
+            android:layout_marginTop="@dimen/dimen_20dp"
+            android:layout_marginBottom="@dimen/dimen_15dp"
+            android:backgroundTint="@color/primary_color"
+            android:gravity="center"
+            android:outlineSpotShadowColor="@color/grey"
+            android:paddingVertical="@dimen/dimen_10dp"
+            android:text="Save"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize"
+            app:cornerRadius="@dimen/dimen_10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radios"
+            />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvCross"
+        android:layout_width="@dimen/dimen_50dp"
+        android:layout_height="@dimen/dimen_50dp"
+        android:layout_marginTop="@dimen/dimen_15dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="@dimen/dimen_25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/consRoot">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_close_icon"
+            app:tint="@color/primary_color" />
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

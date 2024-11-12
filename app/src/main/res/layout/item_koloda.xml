@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlMainkoloda"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/corner_no"
+    android:padding="@dimen/dimen_20dp">
+
+    <ImageView
+
+        android:id="@+id/ivuser"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="@dimen/dimen_10dp"
+
+        android:layout_marginTop="@dimen/dimen_10dp"
+        android:layout_marginEnd="@dimen/dimen_10dp"
+        android:layout_marginBottom="@dimen/dimen_10dp"
+        android:scaleType="fitXY" />
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:context=".ui.activity.login.ChooseCategoryActivity">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="@dimen/dimen_350dp"
+            android:layout_height="@dimen/dimen_170dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/dimen_40dp"
+            android:adjustViewBounds="true"
+            android:elevation="3dp"
+            android:scaleType="center"
+            android:src="@drawable/ic_logo" />
+
+        <TextView
+            android:id="@+id/choose_language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logo"
+            android:layout_centerInParent="true"
+            android:text="Choose Category"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize" />
+
+        <View
+            android:id="@+id/view_orange"
+            android:layout_width="@dimen/dimen_0dp"
+            android:layout_height="@dimen/dimen_2dp"
+            android:layout_below="@+id/choose_language"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/dimen_5dp"
+            android:layout_toLeftOf="@+id/choose_language"
+            android:layout_toRightOf="@+id/choose_language"
+            android:background="@color/color1" />
+
+        <com.chivorn.smartmaterialspinner.SmartMaterialSpinner
+            android:id="@+id/spinner_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view_orange"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:layout_marginTop="@dimen/dimen_25dp"
+            android:layout_marginRight="@dimen/dimen_10dp"
+            app:smsp_autoSelectable="true"
+            app:smsp_enableFloatingLabel="true"
+            app:smsp_floatingLabelColor="#1976D2"
+            app:smsp_floatingLabelText="Gender"
+            app:smsp_hint="Category"
+            app:smsp_hintColor="#000000"
+            app:smsp_isOutlined="true"
+            app:smsp_itemColor="@color/black"
+            app:smsp_itemListColor="@color/black"
+            app:smsp_itemListHintBackgroundColor="#808080"
+            app:smsp_itemListHintColor="@color/color_grey"
+            app:smsp_multilineError="false"
+            app:smsp_outlinedBoxColor="@color/black"
+            app:smsp_outlinedBoxRadius="8dp"
+            app:smsp_paddingLeftRight="@dimen/dimen_10dp"
+            app:smsp_selectedItemListColor="#FF5252"/>
+
+        <TextView
+            android:id="@+id/warning_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinner_type"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:text="* required "
+            android:textColor="@color/solid_red"
+            android:textSize="@dimen/txtSizesmall"
+            android:visibility="gone"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_50dp"
+            android:layout_below="@+id/warning_category"
+            android:layout_marginHorizontal="@dimen/dimen_15dp"
+            android:layout_marginTop="@dimen/dimen_50dp"
+            android:background="@drawable/corner_primarycolor"
+            android:fontFamily="@font/popins_medium"
+            android:text="submit"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_18sp">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+    </RelativeLayout>
+</layout>

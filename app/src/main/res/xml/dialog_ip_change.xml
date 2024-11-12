@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_250dp"
+    android:background="@drawable/border_layout_success"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_ip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen_20dp"
+
+
+        android:maxWidth="300dp"
+
+
+        android:padding="@dimen/dimen_5dp"
+        android:singleLine="true"
+        android:text="Change IP"
+        android:textColor="#203A45"
+        android:textSize="@dimen/dimen_18sp"
+        android:textStyle="bold"
+
+
+        />
+
+    <EditText
+        android:id="@+id/ed_ip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_ip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/dimen_10dp"
+
+        android:layout_marginTop="@dimen/dimen_40dp"
+        android:layout_marginRight="@dimen/dimen_10dp"
+
+        android:backgroundTint="@color/black"
+        android:gravity="center"
+        android:maxWidth="300dp"
+        android:padding="@dimen/dimen_5dp"
+        android:singleLine="true"
+
+        android:textColor="#203A45"
+        android:textSize="@dimen/dimen_18sp"
+
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ed_ip"
+        android:layout_marginTop="@dimen/dimen_18dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/corner_no"
+            android:paddingLeft="@dimen/dimen_50dp"
+            android:paddingTop="@dimen/dimen_15dp"
+            android:paddingRight="@dimen/dimen_50dp"
+            android:paddingBottom="@dimen/dimen_15dp"
+            android:text="No"
+            android:textAllCaps="false"
+            android:textColor="@color/color2"
+            android:textSize="@dimen/textsize"
+            android:visibility="gone" />
+
+        <Button
+
+
+            android:id="@+id/btn_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="22dp"
+
+            android:background="@drawable/corner_blue"
+
+            android:paddingLeft="@dimen/dimen_50dp"
+
+            android:paddingTop="@dimen/dimen_15dp"
+            android:paddingRight="@dimen/dimen_50dp"
+            android:paddingBottom="@dimen/dimen_15dp"
+            android:text="OK"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

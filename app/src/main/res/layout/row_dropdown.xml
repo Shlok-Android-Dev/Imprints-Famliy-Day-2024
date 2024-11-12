@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlMainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/lbltext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_10dp"
+        android:fontFamily="@font/sourcesanssemibold"
+        android:text="Label"
+        android:textColor="@color/txt_color"
+        android:textSize="@dimen/textsize"
+        android:visibility="gone" />
+    <com.chivorn.smartmaterialspinner.SmartMaterialSpinner
+        android:id="@+id/spinner_gender1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_10dp"
+        android:layout_marginTop="@dimen/dimen_5dp"
+        android:layout_marginRight="@dimen/dimen_10dp"
+        android:visibility="gone"
+        app:smsp_autoSelectable="true"
+        app:smsp_enableFloatingLabel="true"
+        app:smsp_floatingLabelColor="#1976D2"
+        app:smsp_floatingLabelText="Gender"
+        app:smsp_hint="Gender"
+        app:smsp_hintColor="#000000"
+        app:smsp_isOutlined="true"
+        app:smsp_itemColor="@color/black"
+        app:smsp_itemListColor="@color/black"
+        app:smsp_itemListHintBackgroundColor="#808080"
+        app:smsp_itemListHintColor="@color/color_grey"
+        app:smsp_multilineError="false"
+        app:smsp_outlinedBoxColor="@color/black"
+        app:smsp_outlinedBoxRadius="8dp"
+        app:smsp_paddingLeftRight="@dimen/dimen_10dp"
+        app:smsp_selectedItemListColor="#FF5252"
+        />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/spinner_gender"
+        style="@style/TextLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/dimen_10dp"
+        android:layout_marginRight="@dimen/dimen_10dp"
+        android:hint="Name"
+        android:textColorHint="@color/xd_grey"
+        app:boxCornerRadiusBottomEnd="8dp"
+        app:boxCornerRadiusBottomStart="8dp"
+        app:boxCornerRadiusTopEnd="8dp"
+        app:boxCornerRadiusTopStart="8dp"
+        app:hintTextColor="@color/color2">
+
+        <EditText
+            android:id="@+id/ed_name"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_60dp"
+            android:drawableRight="@drawable/ic_arrow_drop_down_black_24dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:longClickable="false"
+            android:paddingLeft="@dimen/dimen_8dp"
+            android:paddingTop="@dimen/dimen_8dp"
+            android:paddingRight="@dimen/dimen_10dp"
+            android:paddingBottom="@dimen/dimen_8dp"
+            android:singleLine="true"
+            android:textColorHint="@color/xd_grey"
+            android:textSize="@dimen/textsize"
+            app:hintTextColor="@color/xd_grey" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/txtError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_15dp"
+        android:layout_marginTop="@dimen/dimen_2dp"
+        android:fontFamily="@font/sourcesansregular"
+        android:text="*required"
+        android:textColor="@color/red"
+        android:textSize="@dimen/txtSize"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <View
+        android:id="@+id/ivline"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_0dp"
+        android:layout_marginTop="@dimen/dimen_10dp"
+        android:background="@color/grey"/>
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/inputLayoutNAme"
+        style="@style/TextLabel"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/dimen_10dp"
+        android:layout_marginRight="@dimen/dimen_10dp"
+        android:layout_marginBottom="8dp"
+        android:hint="Other Speciality"
+        android:textColorHint="@color/xd_grey"
+        android:visibility="gone"
+        app:boxCornerRadiusBottomEnd="8dp"
+        app:boxCornerRadiusBottomStart="8dp"
+        app:boxCornerRadiusTopEnd="8dp"
+        app:boxCornerRadiusTopStart="8dp"
+        app:hintTextColor="@color/color2"
+        >
+
+        <EditText
+            android:id="@+id/ed_other"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_60dp"
+
+            android:paddingLeft="@dimen/dimen_8dp"
+            android:paddingTop="@dimen/dimen_8dp"
+            android:paddingRight="@dimen/dimen_70dp"
+            android:paddingBottom="@dimen/dimen_8dp"
+            android:singleLine="true"
+            android:textColorHint="@color/xd_grey"
+            android:textSize="@dimen/textsize"
+            app:hintTextColor="@color/xd_grey" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>
+</layout>

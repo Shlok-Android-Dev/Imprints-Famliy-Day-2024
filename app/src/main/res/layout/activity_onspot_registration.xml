@@ -1,0 +1,1328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<RelativeLayout
+    android:id="@+id/rlmains"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+            <RelativeLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/iv_back"
+                    android:layout_width="@dimen/dimen_30dp"
+                    android:layout_height="@dimen/dimen_30dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/ic_back_arrow" />
+
+
+                <TextView
+
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/iv_back"
+                    android:fontFamily="@font/popins_medium"
+                    android:gravity="center"
+                    android:text="Registration Form"
+                    android:textColor="#333333"
+                    android:textSize="@dimen/dimen_18sp"
+                    android:textStyle="bold"
+
+                    />
+
+                <ImageView
+                    android:id="@+id/ivlistonsite"
+                    android:layout_width="@dimen/dimen_30dp"
+                    android:layout_height="@dimen/dimen_30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/dimen_20dp"
+                    android:src="@drawable/list_icon"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/ivsync"
+                    android:layout_width="@dimen/dimen_30dp"
+                    android:layout_height="@dimen/dimen_30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/dimen_20dp"
+
+                    android:visibility="gone"
+                    app:tint="@color/color2" />
+
+            </RelativeLayout>
+
+
+        </androidx.appcompat.widget.Toolbar>
+        <View
+
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+
+            android:background="@color/color_grey" />
+        <com.chivorn.smartmaterialspinner.SmartMaterialSpinner
+            android:id="@+id/spinner_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:layout_marginTop="@dimen/dimen_15dp"
+            android:layout_marginRight="@dimen/dimen_10dp"
+            android:visibility="gone"
+            app:smsp_autoSelectable="true"
+            app:smsp_enableFloatingLabel="true"
+            app:smsp_floatingLabelColor="#1976D2"
+            app:smsp_floatingLabelText="Gender"
+            app:smsp_hint="Category"
+            app:smsp_hintColor="#000000"
+            app:smsp_isOutlined="true"
+            app:smsp_itemColor="@color/black"
+            app:smsp_itemListColor="@color/black"
+            app:smsp_itemListHintBackgroundColor="#808080"
+            app:smsp_itemListHintColor="@color/color_grey"
+            app:smsp_multilineError="false"
+            app:smsp_outlinedBoxColor="@color/xd_grey"
+            app:smsp_outlinedBoxRadius="8dp"
+            app:smsp_paddingLeftRight="@dimen/dimen_10dp"
+            app:smsp_selectedItemListColor="#FF5252"
+            />
+
+        <TextView
+            android:id="@+id/warning_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:text="*Category required "
+            android:textColor="@color/solid_red"
+            android:textSize="@dimen/txtSizesmall"
+            android:visibility="gone"
+            />
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:id="@+id/inputLayoutNAme"
+            style="@style/TextLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:layout_marginRight="@dimen/dimen_10dp"
+            android:hint="Name"
+            android:textColorHint="@color/xd_grey"
+            app:boxCornerRadiusBottomEnd="8dp"
+            app:boxCornerRadiusBottomStart="8dp"
+            app:boxCornerRadiusTopEnd="8dp"
+            app:boxCornerRadiusTopStart="8dp"
+            app:hintTextColor="@color/color2"
+            >
+
+            <EditText
+                android:id="@+id/ed_name"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_60dp"
+
+                android:paddingLeft="@dimen/dimen_8dp"
+                android:paddingTop="@dimen/dimen_8dp"
+                android:paddingRight="@dimen/dimen_70dp"
+                android:paddingBottom="@dimen/dimen_8dp"
+                android:singleLine="true"
+                android:textColorHint="@color/xd_grey"
+                android:textSize="@dimen/textsize"
+                app:hintTextColor="@color/xd_grey" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/warning_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:text="* required "
+            android:textColor="@color/solid_red"
+            android:textSize="@dimen/txtSizesmall"
+            android:visibility="gone"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:paddingTop="@dimen/dimen_5dp"
+            android:paddingBottom="@dimen/dimen_5dp"
+            android:text="last name"
+            android:textColor="@color/txt_color"
+            android:textStyle="bold"
+            android:visibility="gone"
+            />
+        <EditText
+            android:id="@+id/ed_last_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:layout_marginRight="@dimen/dimen_10dp"
+            android:textColor="@color/txt_color"
+            android:textSize="@dimen/txtSize"
+
+            android:visibility="gone"
+            />
+        <TextView
+            android:id="@+id/warning_last_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:text="*last name required "
+            android:textColor="@color/solid_red"
+            android:textSize="@dimen/txtSizesmall"
+            android:visibility="gone"
+            />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/inputLayoutEmail"
+            style="@style/TextLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:layout_marginRight="@dimen/dimen_10dp"
+            android:hint="Email"
+            android:textColorHint="@color/xd_grey"
+            android:visibility="visible"
+            app:boxCornerRadiusBottomEnd="8dp"
+            app:boxCornerRadiusBottomStart="8dp"
+            app:boxCornerRadiusTopEnd="8dp"
+            app:boxCornerRadiusTopStart="8dp"
+            app:hintTextColor="@color/color2"
+            >
+
+            <EditText
+                android:id="@+id/ed_email"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_60dp"
+
+                android:inputType="textEmailAddress"
+                android:paddingLeft="@dimen/dimen_8dp"
+                android:paddingTop="@dimen/dimen_8dp"
+                android:paddingRight="@dimen/dimen_70dp"
+                android:paddingBottom="@dimen/dimen_8dp"
+                android:singleLine="true"
+                android:textColorHint="@color/xd_grey"
+                android:textSize="@dimen/textsize"
+                app:hintTextColor="@color/black" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <TextView
+            android:id="@+id/warning_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:text="*email is required"
+            android:textColor="@color/solid_red"
+            android:textSize="@dimen/txtSizesmall"
+            android:visibility="gone"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_90dp"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:layout_marginTop="@dimen/dimen_5dp"
+            android:gravity="center"
+            android:paddingBottom="@dimen/dimen_5dp"
+            android:visibility="visible">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_5dp"
+                android:layout_weight="0.3"
+
+                android:visibility="visible">
+                <com.rilixtech.widget.countrycodepicker.CountryCodePicker
+                    android:id="@+id/ccp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_60dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/border_layout"
+                    android:gravity="center"
+
+                    app:ccp_defaultNameCode="IN"
+
+                    app:ccp_textColor="@color/black"
+                    app:ccp_textSize="14sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_weight=".70"
+
+                android:orientation="vertical"
+                android:weightSum="1">
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/inputLayoutMobile"
+                    style="@style/TextLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dimen_5dp"
+                    android:layout_marginTop="@dimen/dimen_5dp"
+                    android:layout_marginRight="@dimen/dimen_10dp"
+                    android:hint="Phone"
+                    android:textColorHint="@color/xd_grey"
+                    app:boxCornerRadiusBottomEnd="8dp"
+                    app:boxCornerRadiusBottomStart="8dp"
+                    app:boxCornerRadiusTopEnd="8dp"
+                    app:boxCornerRadiusTopStart="8dp"
+                    app:hintTextColor="@color/color2"
+                    >
+
+                    <EditText
+                        android:id="@+id/ed_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dimen_60dp"
+                        android:inputType="number"
+                        android:paddingLeft="@dimen/dimen_8dp"
+                        android:paddingRight="@dimen/dimen_70dp"
+                        android:singleLine="true"
+                        android:textColorHint="@color/xd_grey"
+                        android:textSize="@dimen/textsize"
+                        app:hintTextColor="@color/xd_grey" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/warning_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:text="*phone is required"
+            android:textColor="@color/solid_red"
+            android:textSize="@dimen/txtSizesmall"
+            android:visibility="gone"
+            />
+
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/warning_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:text="Please choose title "
+            android:textColor="@color/solid_red"
+            android:textSize="@dimen/txtSizesmall"
+            android:visibility="gone"
+            />
+
+
+        <com.chivorn.smartmaterialspinner.SmartMaterialSpinner
+            android:id="@+id/spinner_gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:layout_marginTop="@dimen/dimen_5dp"
+            android:layout_marginRight="@dimen/dimen_10dp"
+            android:visibility="gone"
+            app:smsp_autoSelectable="true"
+            app:smsp_enableFloatingLabel="true"
+            app:smsp_floatingLabelColor="#1976D2"
+            app:smsp_floatingLabelText="Gender"
+            app:smsp_hint="Gender"
+            app:smsp_hintColor="#000000"
+            app:smsp_isOutlined="true"
+            app:smsp_itemColor="@color/black"
+            app:smsp_itemListColor="@color/black"
+            app:smsp_itemListHintBackgroundColor="#808080"
+            app:smsp_itemListHintColor="@color/color_grey"
+            app:smsp_multilineError="false"
+            app:smsp_outlinedBoxColor="@color/black"
+            app:smsp_outlinedBoxRadius="8dp"
+            app:smsp_paddingLeftRight="@dimen/dimen_10dp"
+            app:smsp_selectedItemListColor="#FF5252"
+            />
+
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#fff"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/spinner_country"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_70dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/border_layout"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:longClickable="false"
+                android:paddingLeft="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:background="#fff"
+                android:paddingLeft="@dimen/dimen_6dp"
+                android:paddingRight="@dimen/dimen_4dp"
+                android:text="Country"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dimen_16sp" />
+        </RelativeLayout>
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/warning_country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:gravity="center"
+            android:paddingLeft="@dimen/dimen_5dp"
+            android:text="Please select Country"
+            android:textColor="@color/solid_red"
+            android:textSize="@dimen/txtSizesmall"
+            android:visibility="gone" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#fff"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/spinner_state"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_70dp"
+
+                android:layout_marginTop="15dp"
+                android:background="@drawable/border_layout"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:longClickable="false"
+                android:paddingLeft="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:background="#fff"
+                android:paddingLeft="@dimen/dimen_6dp"
+                android:paddingRight="@dimen/dimen_4dp"
+                android:text="State"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dimen_16sp" />
+        </RelativeLayout>
+
+
+
+
+
+        <TextView
+            android:id="@+id/warning_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:gravity="center"
+            android:paddingLeft="@dimen/dimen_5dp"
+            android:text="Please select State"
+            android:textColor="@color/solid_red"
+            android:textSize="@dimen/txtSizesmall"
+            android:visibility="gone" />
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#fff"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/spinner_city"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_70dp"
+
+
+                android:layout_marginTop="15dp"
+                android:background="@drawable/border_layout"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:longClickable="false"
+                android:paddingLeft="5dp" />
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+
+
+                android:background="#fff"
+                android:paddingLeft="@dimen/dimen_6dp"
+                android:paddingRight="@dimen/dimen_4dp"
+                android:text="City"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dimen_16sp" />
+        </RelativeLayout>
+
+
+
+
+
+
+
+
+        <com.chivorn.smartmaterialspinner.SmartMaterialSpinner
+            android:id="@+id/spinner_profession"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:layout_marginTop="@dimen/dimen_5dp"
+            android:layout_marginRight="@dimen/dimen_10dp"
+
+            android:visibility="gone"
+
+            app:smsp_autoSelectable="true"
+            app:smsp_enableFloatingLabel="true"
+            app:smsp_floatingLabelColor="#1976D2"
+            app:smsp_floatingLabelText="Gender"
+            app:smsp_hint="Profession"
+
+            app:smsp_hintColor="#000000"
+            app:smsp_isOutlined="true"
+
+            app:smsp_itemColor="@color/black"
+            app:smsp_itemListColor="@color/black"
+            app:smsp_itemListHintBackgroundColor="#808080"
+            app:smsp_itemListHintColor="@color/color_grey"
+            app:smsp_multilineError="false"
+            app:smsp_outlinedBoxColor="@color/black"
+            app:smsp_outlinedBoxRadius="8dp"
+            app:smsp_selectedItemListColor="#FF5252" />
+
+
+        <TextView
+            android:id="@+id/warning_attening_on"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:text="please select Attending on "
+            android:textColor="@color/solid_red"
+            android:textSize="@dimen/txtSizesmall"
+            android:visibility="gone"
+            />
+
+
+        <com.chivorn.smartmaterialspinner.SmartMaterialSpinner
+            android:id="@+id/spinner_earlier"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:layout_marginTop="@dimen/dimen_5dp"
+            android:layout_marginRight="@dimen/dimen_10dp"
+            android:visibility="gone"
+
+
+
+            app:smsp_autoSelectable="true"
+            app:smsp_enableFloatingLabel="true"
+            app:smsp_floatingLabelColor="#1976D2"
+            app:smsp_floatingLabelText="Gender"
+            app:smsp_hint="Have you attended the forum earlier"
+            app:smsp_hintColor="#000000"
+            app:smsp_isOutlined="true"
+            app:smsp_itemColor="@color/black"
+
+            app:smsp_itemListColor="@color/black"
+            app:smsp_itemListHintBackgroundColor="#808080"
+            app:smsp_itemListHintColor="@color/color_grey"
+            app:smsp_multilineError="false"
+            app:smsp_outlinedBoxColor="@color/black"
+            app:smsp_outlinedBoxRadius="8dp"
+            app:smsp_selectedItemListColor="#FF5252" />
+
+
+
+        <TextView
+            android:id="@+id/warning_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:text="please select attending as "
+            android:textColor="@color/solid_red"
+            android:textSize="@dimen/txtSizesmall"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:paddingTop="@dimen/dimen_5dp"
+            android:paddingBottom="@dimen/dimen_5dp"
+            android:text="Organisation *"
+            android:textColor="@color/txt_color"
+            android:textStyle="bold"
+            android:visibility="gone"
+            />
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/inputLayout_company"
+            style="@style/TextLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:layout_marginRight="@dimen/dimen_10dp"
+            android:hint="Company"
+            android:textColorHint="@color/black"
+            android:visibility="visible"
+            app:boxCornerRadiusBottomEnd="8dp"
+            app:boxCornerRadiusBottomStart="8dp"
+            app:boxCornerRadiusTopEnd="8dp"
+            app:boxCornerRadiusTopStart="8dp"
+            app:hintTextColor="@color/black">
+
+            <EditText
+                android:id="@+id/ed_companyname"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_60dp"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="@dimen/dimen_8dp"
+                android:paddingTop="@dimen/dimen_8dp"
+                android:paddingRight="@dimen/dimen_70dp"
+                android:paddingBottom="@dimen/dimen_8dp"
+                android:singleLine="true"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/textsize"
+                app:hintTextColor="@color/black" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <TextView
+            android:id="@+id/warning_company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:text="*company is required"
+            android:textColor="@color/solid_red"
+            android:textSize="@dimen/txtSizesmall"
+            android:visibility="gone"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/inputLayout_designation"
+            style="@style/TextLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:layout_marginRight="@dimen/dimen_10dp"
+            android:hint="Designation"
+            android:textColorHint="@color/black"
+            android:visibility="visible"
+            app:boxCornerRadiusBottomEnd="8dp"
+            app:boxCornerRadiusBottomStart="8dp"
+            app:boxCornerRadiusTopEnd="8dp"
+            app:boxCornerRadiusTopStart="8dp"
+            app:hintTextColor="@color/black"
+            >
+
+            <EditText
+                android:id="@+id/ed_designation"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_60dp"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="@dimen/dimen_8dp"
+                android:paddingTop="@dimen/dimen_8dp"
+                android:paddingRight="@dimen/dimen_70dp"
+                android:paddingBottom="@dimen/dimen_8dp"
+                android:singleLine="true"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/textsize"
+                app:hintTextColor="@color/black" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/warning_designation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:text="*designation is required"
+            android:textColor="@color/solid_red"
+            android:textSize="@dimen/txtSizesmall"
+            android:visibility="gone"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/inputLayout_city"
+            style="@style/TextLabel"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:layout_marginRight="@dimen/dimen_10dp"
+            android:hint="City"
+            android:textColorHint="@color/black"
+            android:visibility="visible"
+            app:boxCornerRadiusBottomEnd="8dp"
+            app:boxCornerRadiusBottomStart="8dp"
+            app:boxCornerRadiusTopEnd="8dp"
+            app:boxCornerRadiusTopStart="8dp"
+            app:hintTextColor="@color/black"
+            >
+
+            <EditText
+                android:id="@+id/ed_city"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_60dp"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="@dimen/dimen_8dp"
+                android:paddingTop="@dimen/dimen_8dp"
+                android:paddingRight="@dimen/dimen_70dp"
+                android:paddingBottom="@dimen/dimen_8dp"
+                android:singleLine="true"
+                android:textColorHint="@color/xd_grey"
+                android:textSize="@dimen/textsize"
+                app:hintTextColor="@color/color2" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <TextView
+            android:id="@+id/warning_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:text="*city is required"
+            android:textColor="@color/solid_red"
+            android:textSize="@dimen/txtSizesmall"
+            android:visibility="gone"
+            />
+
+        <LinearLayout
+            android:id="@+id/ll_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_10dp"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:paddingTop="@dimen/dimen_5dp"
+                android:paddingBottom="@dimen/dimen_5dp"
+                android:text="Registration Dates"
+                android:textColor="@color/txt_color"
+                android:textStyle="bold"
+                android:visibility="visible"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_10dp"
+                android:layout_marginTop="@dimen/dimen_3dp"
+                android:layout_marginRight="@dimen/dimen_10dp"
+                android:background="@drawable/border_layout"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/ch_23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="23rd"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/dimen_22sp"
+
+                    />
+
+                <CheckBox
+                    android:id="@+id/ch_24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="24th"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/dimen_22sp"
+
+                    />
+                <CheckBox
+                    android:id="@+id/ch_25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="25th"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/dimen_22sp"
+
+                    />
+                <CheckBox
+                    android:id="@+id/ch_26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="26th"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/dimen_22sp"
+
+                    />
+
+                <CheckBox
+                    android:id="@+id/ch_all"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="All Days"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/dimen_22sp"
+                    android:visibility="gone"
+
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/warning_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:text="*please choose Registration dates"
+            android:textColor="@color/solid_red"
+            android:textSize="@dimen/txtSizesmall"
+            android:visibility="gone"
+            />
+
+        <LinearLayout
+            android:id="@+id/ll_payment_mode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_6dp"
+            android:orientation="vertical"
+            android:visibility="visible">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_10dp"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:paddingTop="@dimen/dimen_5dp"
+                android:paddingBottom="@dimen/dimen_5dp"
+                android:text="Payment Mode*"
+                android:textColor="@color/txt_color"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/radiogroup"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:orientation="horizontal"
+                android:visibility="visible">
+                <RadioButton
+                    android:id="@+id/rdcash"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="0.35"
+
+                    android:padding="10dp"
+                    android:text="Cash"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+                <RadioButton
+                    android:id="@+id/upi"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.35"
+                    android:padding="10dp"
+                    android:text="UPI"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+                <RadioButton
+                    android:id="@+id/card"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.35"
+                    android:padding="10dp"
+                    android:text="Card"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+
+
+
+
+            </RadioGroup>
+            <TextView
+                android:id="@+id/warning_payment_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_10dp"
+                android:text="*payment Mode required "
+                android:textColor="@color/solid_red"
+                android:textSize="@dimen/txtSizesmall"
+                android:visibility="gone" />
+        </LinearLayout>
+
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:paddingTop="@dimen/dimen_5dp"
+            android:paddingBottom="@dimen/dimen_5dp"
+            android:text="Designation *"
+            android:textColor="@color/txt_color"
+            android:textStyle="bold"
+            android:visibility="gone"
+            />
+
+
+
+        <TextView
+            android:id="@+id/amt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:paddingTop="@dimen/dimen_5dp"
+            android:paddingBottom="@dimen/dimen_5dp"
+            android:text="Amount to paid"
+            android:textColor="@color/txt_color"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:paddingTop="@dimen/dimen_5dp"
+            android:paddingBottom="@dimen/dimen_5dp"
+            android:text="Covid Vaccination Status *"
+            android:textColor="@color/txt_color"
+            android:textStyle="bold"
+            android:visibility="gone"
+            />
+
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/spinner_covid_status"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_42dp"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:layout_marginTop="@dimen/dimen_5dp"
+            android:layout_marginRight="@dimen/dimen_10dp"
+            android:background="@drawable/border_grey"
+            android:textColor="@color/black"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/warning_covid_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:text="please select vaccination status "
+            android:textColor="@color/solid_red"
+            android:textSize="@dimen/txtSizesmall"
+            android:visibility="gone"
+            />
+
+
+
+
+
+
+
+
+
+
+
+        <Button
+            android:id="@+id/btn_onsite_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:layout_marginRight="@dimen/dimen_10dp"
+            android:layout_marginBottom="@dimen/dimen_10dp"
+            android:background="@drawable/corner_blue"
+            android:text="submit"
+            android:textColor="@color/white"
+
+            />
+        <TextView
+            android:id="@+id/txt_fee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:paddingTop="@dimen/dimen_5dp"
+            android:paddingBottom="@dimen/dimen_5dp"
+            android:text="Reg. Fee :  -   Rs.1000/-*"
+            android:textColor="@color/txt_color"
+            android:textSize="@dimen/dimen_20sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            />
+
+
+    </LinearLayout>
+    </ScrollView>
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <RelativeLayout
+
+            android:id="@+id/rl_badgeprint_sunmi"
+            android:layout_width="255dp"
+            android:layout_height="255dp"
+            android:background="@drawable/shape_rect"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:id="@+id/txtTopSunmi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:minWidth="@dimen/dimen_text_Sunmmi"
+                        android:textColor="#000"
+                        android:textSize="28sp"
+                        android:textStyle="bold"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/lblprintname_sunmi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:maxLines="2"
+                        android:minWidth="@dimen/dimen_text_Sunmmi"
+
+                        android:textColor="#000"
+                        android:textSize="19sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/lblprintname_sunmiH2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:minWidth="@dimen/dimen_text_Sunmmi"
+                        android:textColor="#000"
+                        android:textSize="19sp"
+                        android:textStyle="bold"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/lblPrintDesignation_sunmi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lblprintname"
+                        android:gravity="center"
+                        android:maxLines="2"
+                        android:minWidth="@dimen/dimen_text_Sunmmi"
+                        android:text="Android Developer"
+                        android:textColor="#000"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:visibility="visible" />
+
+                    <TextView
+                        android:id="@+id/lblprintCompany_sunmi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lblPrintDesignation"
+                        android:gravity="center"
+                        android:maxLines="2"
+                        android:text="Webcontxt India"
+                        android:textColor="#000"
+                        android:textSize="15sp"
+                        android:visibility="visible" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lblprintCompany"
+                        android:gravity="center"
+                        android:minWidth="@dimen/dimen_text_Sunmmi"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/ivQr_sunmi"
+                            android:layout_width="105dp"
+                            android:layout_height="105dp" />
+
+                        <TextView
+                            android:id="@+id/qrcode_assigned_sunmi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/lblprintCompany"
+                            android:gravity="center"
+                            android:lineSpacingExtra="10sp"
+                            android:text="IDEC22QWERVBN:"
+                            android:textColor="#000"
+
+                            android:textSize="10sp"
+                            android:textStyle="bold"
+                            android:visibility="visible" />
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:id="@+id/lblprintcategory_sunmi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lblPrintDesignation"
+                        android:layout_marginTop="@dimen/dimen_15dp"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:minWidth="@dimen/dimen_text_Sunmmi"
+                        android:text="Sponser"
+                        android:textColor="#000"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+    <ScrollView
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <RelativeLayout
+
+            android:id="@+id/rl_badgeprint"
+            android:layout_width="490dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/shape_rect"
+            android:paddingLeft="15dp"
+            android:paddingTop="38dp"
+            android:paddingBottom="38dp"
+            android:visibility="visible">
+
+
+            <TextView
+                android:id="@+id/lblprintname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+
+                android:gravity="left"
+                android:maxLines="2"
+
+
+                android:text="Nitesh Arora:"
+                android:textColor="#000"
+                android:textSize="42sp" />
+
+
+            <TextView
+                android:id="@+id/lblprintCompany"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblPrintDesignation"
+                android:layout_marginLeft="5dp"
+                android:gravity="left"
+
+                android:maxLines="2"
+                android:text="Company:"
+
+                android:textColor="#000"
+                android:textSize="38sp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/lblPrintDesignation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblprintname"
+                android:layout_marginLeft="5dp"
+
+
+                android:gravity="left"
+                android:maxLines="2"
+                android:text="Android Devloper:"
+                android:textColor="#000"
+                android:textSize="40sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblprintCompany"
+                android:layout_marginLeft="5dp"
+                android:gravity="left"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/ivQr"
+                    android:layout_width="235dp"
+                    android:layout_height="235dp"
+                    android:layout_marginLeft="-29dp" />
+
+                <TextView
+                    android:id="@+id/qrcode_assigned"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lblprintCompany"
+                    android:layout_marginTop="-10dp"
+                    android:gravity="left"
+                    android:text="IDEC22QWERVBN:"
+                    android:textColor="#000"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/rl_etickit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible">
+
+
+
+
+        <WebView
+
+            android:id="@+id/webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+            android:id="@+id/cross_e_tickit"
+            android:layout_width="@dimen/dimen_40dp"
+            android:layout_height="@dimen/dimen_40dp"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/dimen_10dp"
+            android:src="@drawable/ic_close_icon"
+            app:tint="@color/black" />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
+</layout>
+

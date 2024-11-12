@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlMainLayout"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/inputLayoutNAme"
+        style="@style/TextLabel"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/dimen_10dp"
+        android:layout_marginRight="@dimen/dimen_10dp"
+        android:hint="Name"
+        android:textColorHint="@color/xd_grey"
+        app:boxCornerRadiusBottomEnd="8dp"
+        app:boxCornerRadiusBottomStart="8dp"
+        app:boxCornerRadiusTopEnd="8dp"
+        app:boxCornerRadiusTopStart="8dp"
+        app:hintTextColor="@color/color2"
+        >
+
+        <EditText
+            android:id="@+id/ed_name"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_60dp"
+            android:paddingLeft="@dimen/dimen_8dp"
+            android:paddingTop="@dimen/dimen_8dp"
+            android:paddingRight="@dimen/dimen_10dp"
+            android:paddingBottom="@dimen/dimen_8dp"
+            android:singleLine="true"
+            android:textColorHint="@color/xd_grey"
+            android:textSize="@dimen/textsize"
+            app:hintTextColor="@color/xd_grey" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+    <TextView
+        android:id="@+id/txtErrorEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_10dp"
+        android:layout_marginTop="@dimen/dimen_2dp"
+        android:fontFamily="@font/sourcesansregular"
+        android:text="*required"
+        android:textColor="@color/red"
+        android:textSize="@dimen/txtSize"
+        android:visibility="gone"/>
+
+    <View
+        android:id="@+id/ivline"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_0dp"
+        android:layout_marginTop="@dimen/dimen_10dp"
+        android:background="@color/grey"/>
+
+</LinearLayout>
+</layout>

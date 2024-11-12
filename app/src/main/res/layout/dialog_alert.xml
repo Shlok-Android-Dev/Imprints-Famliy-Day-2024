@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border_layout_success"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/iv_cross"
+        android:layout_width="@dimen/dimen_30dp"
+        android:layout_height="@dimen/dimen_30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="22dp"
+
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/ic_close_icon"
+        android:visibility="invisible" />
+
+
+    <ImageView
+        android:id="@+id/iv_sucess"
+        android:layout_width="@dimen/dimen_70dp"
+        android:layout_height="@dimen/dimen_70dp"
+        android:layout_below="@id/iv_cross"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen_5dp"
+        android:layout_marginRight="15dp"
+
+        android:src="@drawable/ic_alert"
+
+        />
+
+    <TextView
+        android:id="@+id/msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_sucess"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen_10dp"
+        android:gravity="center"
+        android:padding="@dimen/dimen_5dp"
+        android:text="Check Web Service Response!!"
+        android:textColor="#203A45"
+        android:textSize="@dimen/dimen_16sp"
+        android:textStyle="bold"
+
+
+        />
+
+    <ScrollView
+        android:id="@+id/scrv_err"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/msg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen_5dp">
+
+        <TextView
+            android:id="@+id/err_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_sucess"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:gravity="center"
+            android:maxLines="15"
+            android:text=""
+            android:textColor="#203A45"
+            android:textSize="@dimen/dimen_16sp"
+            android:textStyle="bold"
+
+
+            />
+
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/btnNFCtAG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scrv_err"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:background="@drawable/corner_blue"
+        android:backgroundTint="@color/color_black_tv_title_item_home"
+        android:maxWidth="300dp"
+        android:paddingLeft="@dimen/dimen_50dp"
+        android:paddingRight="@dimen/dimen_50dp"
+        android:text="Vcard Tag"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textsize"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnNFCtAG"
+        android:layout_marginTop="@dimen/dimen_15dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/msg"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:background="@drawable/corner_blue"
+            android:maxWidth="300dp"
+            android:paddingLeft="@dimen/dimen_50dp"
+            android:paddingRight="@dimen/dimen_50dp"
+
+            android:text="Cancel"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize"
+            android:visibility="gone" />
+
+        <Button
+
+            android:id="@+id/btn_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/msg"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/dimen_15dp"
+            android:background="@drawable/corner_blue"
+            android:maxWidth="300dp"
+            android:paddingLeft="@dimen/dimen_50dp"
+            android:paddingRight="@dimen/dimen_50dp"
+            android:text="OK"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize"
+            android:visibility="visible" />
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

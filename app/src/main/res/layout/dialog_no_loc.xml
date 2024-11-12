@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_250dp"
+    android:background="@drawable/border_layout_success"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen_60dp"
+        android:gravity="center"
+        android:maxWidth="300dp"
+        android:padding="@dimen/dimen_5dp"
+        android:text="No Zapping Location!!\n please Add Zapping Location From DIY Admin."
+        android:textColor="#203A45"
+        android:textSize="@dimen/dimen_18sp"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/msg"
+        android:layout_marginTop="@dimen/dimen_45dp"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/corner_no"
+            android:paddingLeft="@dimen/dimen_40dp"
+            android:paddingTop="@dimen/dimen_10dp"
+            android:paddingRight="@dimen/dimen_40dp"
+            android:paddingBottom="@dimen/dimen_10dp"
+            android:text="No"
+            android:textAllCaps="false"
+            android:textColor="@color/primary_color"
+            android:textSize="@dimen/textsize"
+            android:visibility="gone" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="22dp"
+            android:background="@drawable/corner_primarycolor"
+            android:paddingLeft="@dimen/dimen_40dp"
+            android:paddingTop="@dimen/dimen_10dp"
+            android:paddingRight="@dimen/dimen_40dp"
+            android:paddingBottom="@dimen/dimen_10dp"
+            android:text="Back"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

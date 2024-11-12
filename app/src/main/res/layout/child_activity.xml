@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="@dimen/dimen_70dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_10dp"
+        android:background="@drawable/corner_primarycolor">
+
+        <TextView
+
+            android:id="@+id/activity_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@+id/iv_right"
+
+            android:fontFamily="@font/popins_medium"
+            android:gravity="left|center"
+            android:paddingLeft="@dimen/dimen_20dp"
+            android:paddingTop="@dimen/dimen_10dp"
+            android:paddingBottom="@dimen/dimen_10dp"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/iv_right"
+            android:layout_width="@dimen/dimen_35dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dimen_10dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/black_right"
+            android:tint="@color/white"
+            app:tint="@color/white"
+            tools:ignore="UseAppTint" />
+
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
+

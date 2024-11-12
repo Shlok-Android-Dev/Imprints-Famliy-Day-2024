@@ -1,0 +1,164 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.crashlytics'
+android {
+    compileSdkVersion 33
+
+    defaultConfig {
+        applicationId "com.imprints_family_day"
+        minSdkVersion 21
+        versionCode 4
+        versionName "1.4"
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+        multiDexEnabled true
+        ndk {
+            abiFilters 'x86', 'x86_64', 'armeabi', 'armeabi-v7a', 'arm64-v8a'
+        }
+        externalNativeBuild {
+            cmake {}
+
+        }
+    }
+
+    packagingOptions {
+        exclude("META-INF/DEPENDENCIES")
+        exclude("META-INF/LICENSE")
+        exclude("META-INF/LICENSE.txt")
+        exclude("META-INF/license.txt")
+        exclude("META-INF/NOTICE")
+        exclude("META-INF/NOTICE.txt")
+        exclude("META-INF/notice.txt")
+        exclude("META-INF/ASL2.0")
+        exclude("META-INF/*.kotlin_module")
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    dexOptions {
+        preDexLibraries = false
+        javaMaxHeapSize "4g"
+    }
+
+    dataBinding {
+        enabled = true
+    }
+
+    buildFeatures {
+
+        dataBinding true
+
+        // for view binding:
+        // viewBinding true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+repositories {
+    flatDir {
+        dirs '../../libs'
+    }
+}
+
+dependencies {
+    implementation files('libs/apache-httpcomponents-httpcore.jar')
+    implementation files('libs/httpclient-4.2.3.jar')
+    implementation files('libs/AndroidPrinterSDK3.1.jar')
+    implementation files('libs/MobilePrintLib.jar')
+    implementation files('libs/apache-httpcomponents-httpcore.jar')
+    implementation files('libs/httpclient-4.2.3.jar')
+    implementation files('libs/tscsdk.jar')
+    implementation files('libs/MobilePrintLib.jar')
+    implementation 'com.airbnb.android:lottie:3.4.0'
+    implementation files('libs/BrotherPrintLibrary.aar')
+    implementation files('libs/orgwordutils.jar')
+    implementation files('libs/zltd-n2s-scanner.jar')
+    implementation 'com.google.android.material:material:1.1.0'
+    implementation files('libs/ScannerAPI.jar')
+    implementation files('libs/platform_sdk_v2.4.0810.jar')
+    implementation files('libs/SDK_release_v2.1.1.jar')
+    implementation files('libs/universal-image-loader-1.9.5.jar')
+    implementation files('libs/opencsv-1.7.jar')
+ //   implementation 'com.github.joielechong:countrycodepicker:2.1.5'
+    implementation files('libs/core-3.3.0.jar')
+    //implementation fileTree(dir: "$buildDir/native-libs", include: 'native-libs.jar')
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.mindorks:placeholderview:0.7.2'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-scalars:2.4.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.9.0'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+
+    implementation 'de.hdodenhof:circleimageview:2.1.0'
+    implementation 'com.tuyenmonkey:mkloader:1.4.0'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.7'
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.7"
+    implementation 'com.github.f0ris.sweetalert:library:1.6.2'
+
+    implementation 'com.sunmi:printerlibrary:1.0.18'
+    implementation 'com.sunmi:sunmiui:1.1.27'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:2.0.4'
+    implementation 'com.github.chivorns:smartmaterialspinner:1.5.0'
+    implementation project(':countrycodepicker')
+    implementation 'com.github.bumptech.glide:glide:4.13.0'
+    implementation 'org.chromium.net:cronet-embedded:98.4758.101'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.13.0'
+
+    implementation('com.journeyapps:zxing-android-embedded:4.3.0')
+            {
+                transitive = false
+            }
+    implementation 'com.github.androidpk:webviewtopdf:1.0.1'
+    //implementation 'com.squareup.okhttp3:okhttp:4.9.0'
+    implementation 'com.github.poovamraj:PinEditTextField:1.2.6'
+
+
+    //ImagePicker
+    implementation 'com.github.dhaval2404:imagepicker:2.1'
+
+    //Aws server upload image
+    implementation 'com.amazonaws:aws-android-sdk-core:2.6.+'
+    implementation 'com.amazonaws:aws-android-sdk-cognito:2.2.+'
+    implementation 'com.amazonaws:aws-android-sdk-s3:2.6.+'
+    implementation 'com.amazonaws:aws-android-sdk-ddb:2.2.+'
+    implementation 'com.github.androidpk:webviewtopdf:1.0.1'
+
+    implementation 'com.google.firebase:firebase-database-ktx'
+
+    implementation 'com.firebaseui:firebase-ui-auth:7.2.0'
+    implementation 'com.firebaseui:firebase-ui-database:7.2.0'
+    implementation 'com.google.android.gms:play-services-auth:20.2.0'
+    implementation ('com.google.firebase:firebase-auth-ktx')
+            {
+                exclude module: "play-services-safetynet"
+            }
+    // Import the BoM for the Firebase platform
+    implementation(platform("com.google.firebase:firebase-bom:32.1.1"))
+
+    // Add the dependencies for the Crashlytics and Analytics libraries
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+    implementation("com.google.firebase:firebase-crashlytics-ktx")
+    implementation("com.google.firebase:firebase-analytics-ktx")
+
+    implementation 'com.github.MdFarhanRaja:SearchableSpinner:2.0'
+
+}

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: C./Users/shlok/Android Project Chipmunk/imprints_famliy_day_2024-main/app/libs/BrotherPrintLibrary.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b482ced90d60bb77c9988caa2eb6a25e/jetified-BrotherPrintLibrary/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b482ced90d60bb77c9988caa2eb6a25e/jetified-BrotherPrintLibrary/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b482ced90d60bb77c9988caa2eb6a25e/jetified-BrotherPrintLibrary/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

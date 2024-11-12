@@ -1,0 +1,1488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Imprints Family Day 2024</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_connection">No Internet Connection</string>
+    <string name="app_pleaseWait">Please Wait Loading...</string>
+    <string name="app_ok">OK</string>
+    <string name="app_Code"></string>
+    <string name="back_msg">Do you want to go back?</string>
+    <string name="select_macine">Select printing Machine</string>
+    <string name="change_zapping_laction">Change Zapping Location</string>
+
+    <string name="edittext_hint_mobile_number"><font size="30">Username</font></string>
+    <!--https://dreamcast.co.in/nrai/getqrenter.php?members-->
+    <!--Label String-->
+
+    <string name="message_error_start_intent">Oops! This Intent can not be handled.\n\nCheck that <b>PrintHand</b> or  <b>PrintHand Premium</b> application installed on your device</string>
+    <string name="lbl_setting">Setting </string>
+    <string name="lbl_contact">Download Configuration</string>
+    <string-array name="pj_paper_kind_values">
+        <item>PJ_ROLL</item>
+        <item>PJ_CUT_PAPER</item>
+    </string-array>
+    <string name="progress_dialog_message_transfer_start">Transfer Start…</string>
+    <string name="lbl_welcome">Download Welcome Voice</string>
+    <string name="progress_dialog_message_communication_start">Start communication…</string>
+    <string name="lbl_wating">Download Waiting Voice</string>
+    <string name="lbl_Thanku">Download Thankyou Voice</string>
+    <string name="lbl_signature">Please Sign Here</string>
+    <string name="progress_dialog_message_setting_bluetooth_setting">Transferring Bluetooth settings </string>
+    <string name="button_send_binfile">Send File</string>
+    <string name="supported_device">PJ-7XX/RJ-4030Ai/RJ-2XXX</string>
+    <string name="progress_dialog_message_preparing_connection">Preparing the connection…</string>
+    <string name="progress_dialog_message_createData">Creating the data</string>
+    <string name="progress_dialog_message_sendingData">Sending the data…</string>
+    <string name="progress_dialog_message_sendingPrintingData">Sending the data…</string>
+    <string name="progress_dialog_message_startPrint">Printing the data </string>
+    <string name="progress_dialog_message_dataSent">The data was sent </string>
+    <string name="progress_dialog_message_printed">The printing process was completed </string>
+    <string name="progress_dialog_message_close_connection">Closing the connection</string>
+    <string name="progress_dialog_message_set_paper">Please Set Paper</string>
+    <string name="progress_dialog_message_cooling_start">Printer cooling start</string>
+    <string name="progress_dialog_message_cooling_end">Printer cooling end</string>
+    <string name="progress_dialog_message_waiting_peel">Wait for peeling label</string>
+    <string name="progress_dialog_message_sending_template">File transferring</string>
+    <string name="progress_dialog_message_getting_bluetooth_setting">Getting Bluetooth settings </string>
+
+    <string name="progress_dialog_message_removing_template">Removing templates </string>
+    <string name="progress_dialog_message_getting_template">Getting template list </string>
+    <string name="error_message_weong_os">Android OS is not supported</string>
+    <string name="error_message_no_usb">USB device is not found</string>
+    <string name="error_message_runtime">Runtime error occurred </string>
+    <string name="error_message_none">Succeeded</string>
+    <!--   hint Vales-->
+    <string-array name="power_mode_array">
+        <item>(NO CHANGE)</item>
+        <item>Connection time priority</item>
+        <item>Standard</item>
+        <item>Power-saving mode priority</item>
+    </string-array>
+    <string name="no_network_device">No Net Printer Found</string>
+    <string name="no_bluetooth_device">No Bluetooth Printer Found</string>
+    <string name="unable_access">Unable Access…</string>
+    <string name="mac_address_value">Set the number of mac address </string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Yourname</string>
+    <string name="hint_phoneNo">Phone Number</string>
+    <string name="hint_organization">Organization</string>
+    <string name="hint_Purpose">Purpose</string>
+    <string name="hint_phoneNobadge">Phone Number</string>
+    <string name="bluetooth_printer_list_title_label">Bluetooth Printer</string>
+    <string name="hint_Picture_visitor">Picture of Visitor</string>
+    <string name="hint_search">Enter name of the person you want to meet</string>
+    <string name="hint_searchcourier">Enter name of the Person</string>
+    <string name="hint_other">Others(Please Specify)</string>
+    <string name="hint_companyname">CompanyName</string>
+    <!--  Button Login-->
+    <string name="btn_login">Login</string>
+    <string name="btn_Submit">Submit</string>
+    <string name="btn_Print">Print</string>
+    <string name="btn_agree">Agree</string>
+    <string name="btn_checkout">CheckOut</string>
+    <!--  message String-->
+    <string name="message_empty_EMAIL">PLEASE FILL YOUR EMAIL</string>
+    <string name="message_empty_PASSWORD">PLEASE FILL YOUR PASSWORD</string>
+    <string name="msg_validemail">EMAIL IS INVALID</string>
+    <!--CheckBox String-->
+    <string name="Chk_Remember">Remember Me</string>
+    <!--Message string-->
+    <string name="msg_errorName">PLEASE FILL YOUR NAME</string>
+
+
+    <string name="msg_errormobile">PLEASE FILL YOUR PHONE NO</string>
+    <string name="msg_errorOrganiztion">PLEASE FILL THE ORGANIZATION</string>
+    <string name="msg_errorPurpose">PLEASE FILL THE PURPOSE</string>
+
+    <string name="msg_error10mobile">PLEASE FILL THE MOBILE NUMBER IN 10 DIGIT</string>
+
+    <string name="msg_errorcheckin"> PLEASE FILL VALID NUMBER WHICH YOU FILL ON CHECK-IN</string>
+    <string name="msg_loginfailure">Incorrect Username or Password</string>
+    <string name="msg_Error">PLEASE FILL THE</string>
+    <!--Array String-->
+    <string name="lbl_checkout">Checkout</string>
+
+
+    <string name="lbl_other">Other</string>
+
+    <!--label String -->
+    <string name="lbl_want">Want to Meet</string>
+    <string name="lbl_courier">Courier</string>
+    <string name="lbl_ReqSign">Required Signature</string>
+    <string name="lbl_DropIn">DropIn</string>
+    <string name="lbl_Live">Live Photo Camera</string>
+    <string name="lbl_customCourier">Custom</string>
+    <string name="lbl_thankuMsg"> THANK YOU FOR VISIT. \n HAVE A GOOD DAY !</string>
+    <string name="lbl_beenhere">Been here before?</string>
+    <string name="slidetounlock_label"> Slide To Check-In</string>
+
+    <string name="slidetounlock_label_default"> Slide To Check-In</string>
+
+    <string name="lbl_msg_CWelcome">Thankyou. Please drop your package on reception.</string>
+    <string name="lbl_msg_VWelcome">We have informed your contact. Please wait in the Lobby. </string>
+
+
+
+    <string name="URL_APP">https://events.godreamcast.com/imprints_family_day_2024/api/</string>
+
+    <string name="URL_redeem">https://mumbaiethnicexpo.in/api/redeem</string>
+    <string name="URL_Login">app_login/</string>
+
+
+    <!-- Url App-->
+    <string name="URL_getData">getdata.php?</string>
+    <string name="URL_addvisitorinfo">addvisitorinfo.php?</string>
+    <string name="URL_checkout">checkout.php?</string>
+    <string name="URL_addcourierinfo">addcourierinfo.php?</string>
+    <string name="URL_getvisitorinfo">getvisitorinfo.php?</string>
+    <string name="URL_checkoutcourier">checkoutcourier.php?</string>
+    <string name="txt_Tapcheckin">Tap to Check-In</string>
+    <string name="txt_Tapcheckinguest">Tap to Check-In</string>
+
+
+    <!--<Tab String>-->
+
+    <string name="txt_title">Guest Badge</string>
+
+    <string name="lbl_msg_guest">Thankyou for signing our Guestbook</string>
+    <string name="menu_settings">Settings</string>
+    <string name="button_print">Print</string>
+
+
+    <string name="weburl">http://192.168.40.116/adidasstorelaunch/print.php</string>
+
+
+    <string name="button_printer_settings">Printer Settings</string>
+    <string name="button_transfer_template">Transfer Template</string>
+    <string-array name="yes_no_entries">
+        <item>yes</item>
+        <item>no</item>
+    </string-array>
+    <string-array name="yes_no_value">
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+    <string name="tethering_title">Tethering</string>
+
+    <string name="button_select_file">Select File</string>
+    <string name="button_select">Select</string>
+    <string name="button_add">Add</string>
+    <string name="button_delete">Delete</string>
+    <string name="button_get_list">Get List</string>
+    <string name="button_bluetooth_settings">Bluetooth Settings</string>
+    <string name="button_network_settings">Network Settings</string>
+    <string name="button_device_settings">Device Settings</string>
+    <string name="pj_700_series">PJ-700 Series</string>
+    <string name="mw_series">MW Series</string>
+    <string name="file_explorer_title">File Explorer</string>
+    <string name="button_printer_status">Printer Status</string>
+    <string name="text_select_pdz">Select a pdz or blf file</string>
+    <string name="text_transfer">Transfer</string>
+    <string name="text_select_image">Select image/prn file</string>
+    <string name="text_input_data">Input Data:</string>
+    <string name="text_template_Index">Index:</string>
+    <string name="text_template_name">Name:</string>
+    <string name="text_template_text">Text:</string>
+    <string name="text_template_key">Template Key:</string>
+    <string name="text_template_replace_texts">Replace Texts:</string>
+    <string name="text_select_pdf">Select a pdf file</string>
+    <string name="text_pdf_pages_start">Start Page:</string>
+    <string name="text_pdf_pages_end">End Page:</string>
+    <string name="chkbox_multiple_select">Multiple Select</string>
+    <string name="chkbox_all_pages">All pages</string>
+    <string name="text_print_image">Print Image/Prn File</string>
+    <string name="text_print_pdf">Print Pdf File</string>
+    <string name="text_print_template">Print Template</string>
+    <string name="text_transfer_manager">Manage Templates</string>
+    <string name="text_transfer_pdz">Transfer Template File</string>
+    <string name="text_device_setting">Device Settings</string>
+    <string name="text_remove_template">Remove Template File</string>
+    <string name="text_not_exit_template">Template does not exit.</string>
+    <string name="UnableAccess">Unable Access…</string>
+    <string name="noNetDevice">No Net Printer Found</string>
+    <string name="setting_printer">Basic Settings</string>
+    <string name="setting_alignment">Set Alignment</string>
+    <string name="setting_PJ">Set PocketJet Parameter</string>
+    <string name="printer_title">Printer</string>
+    <string name="printer_text">Select a destination printer</string>
+    <string name="setting_label">Settings</string>
+    <string name="about_label">About</string>
+    <string name="about_title">Brother Print Sdk Demo</string>
+    <string name="about_text">Ver.3.0.3\n© 2016 Brother Industries, Ltd.\n</string>
+    <string name="netPrinterListTitle_label">Net Printer</string>
+    <string name="progressDialogMessage_preparingConnection">Preparing the connection…</string>
+    <string name="progressDialogMessage_createData">Creating the data</string>
+    <string name="progressDialogMessage_sendingData">Sending the data…</string>
+    <string name="progressDialogMessage_sendingPrintingData">Sending the data…</string>
+    <string name="progressDialogMessage_startPrint">Printing the data </string>
+    <string name="progressDialogMessage_dataSent">The data was sent </string>
+    <string name="progressDialogMessage_printed">The printing process was completed </string>
+    <string name="progressDialogMessage_CloseConnection">Closing the connection</string>
+    <string name="progressDialogMessage_SetPaper">Please Set Paper</string>
+    <string name="progressDialogMessage_CoolingStart">Printer cooling start</string>
+    <string name="progressDialogMessage_CoolingEnd">Printer cooling end</string>
+    <string name="progressDialogMessage_WaitingPeel">Wait for peeling label</string>
+    <string name="progressDialogMessage_sendingTemplateData">File transferring</string>
+    <string name="progressDialogMessage_getting_bluetoothsetting">Getting Bluetooth settings </string>
+    <string name="progressDialogMessage_setting_bluetoothsetting">Transfering Bluetooth settings </string>
+    <string name="progressDialogMessage_removing_template">Removing templates </string>
+    <string name="progressDialogMessage_getting_template">Getting template list </string>
+    <string name="ErrorMessage_ERROR_NONE">Succeeded</string>
+    <string name="alertDialogMessage_runtimeError">Runtime error occurred </string>
+    <string name="printerModel_title">PrinterModel</string>
+    <string name="printerModel_value">Select the printer model </string>
+    <string name="ErrorMessage_WRONG_OS">Android OS is not supported</string>
+    <string name="ErrorMessage_NO_USB">USB device is not found</string>
+    <string name="port_title">Port</string>
+    <string name="port_value">Select the port</string>
+    <string name="address_title">IP address</string>
+    <string name="address_value">Set the number of ip address </string>
+    <string name="macAddress_title">MAC address</string>
+    <string name="macAddress_value">Set the number of mac address </string>
+    <string name="paperSize_title">Paper size</string>
+    <string name="paperSize_value">Select the paper size </string>
+    <string name="orientation_title">Printing orientation</string>
+    <string name="orientation_value">Select the printing orientation </string>
+    <string name="numberOfCopies_title">Number of copies</string>
+    <string name="numberOfCopies_value">Set the number of copies </string>
+
+    <string name="halfToning_title">Half toning</string>
+    <string name="halfToning_title1">Half toning</string>
+    <string name="halfToning_value">Select the half toning method </string>
+
+    <string name="imageThresholding_title">Threshold of simple binary</string>
+    <string name="imageThresholding_value">Select the threshold </string>
+    <string name="scaleValue_title">Scale value</string>
+    <string name="scaleValue_value">Select the scale value </string>
+    <string name="fitToPage_title">Fit to page</string>
+    <string name="fitToPage_value">Select if fitting to page </string>
+    <string name="isCarbon_title">Carbon</string>
+    <string name="isCarbon_value">Select the carbon</string>
+
+    <string name="pjDensity_title">PJ Density</string>
+    <string name="pjDensity_value">Select the PJ density</string>
+    <string name="image_thresholding_title">Threshold of simple binary</string>
+    <string name="image_thresholding_value">Select the threshold </string>
+    <string name="mode9_title">Mode9</string>
+    <string name="mode9_value">Select the Mode9</string>
+    <string name="soft_focusing_title">Lighter</string>
+    <string name="soft_focusing_value">Select the lighter</string>
+    <string name="pjSpeed_title">PJ Speed</string>
+    <string name="use_legacy_halftone_engine_title">Use legacy halftone engine</string>
+    <string name="use_legacy_halftone_engine_value">Select the Use legacy halftone engine</string>
+    <string name="pjSpeed_value">Select the PJ speed</string>
+    <string name="work_path_value">Select the work path</string>
+    <string name="work_path_title">Work Folder</string>
+    <string name="printerCase_title">Printer case</string>
+    <string name="timeout_title">Timeout</string>
+    <string name="timeout_text">Set the timeout </string>
+    <string name="printerCase_value">Select the printer case</string>
+    <string name="processTimeout_value">Time-out period</string>
+    <string name="processTimeout_title">Set overall time-out time </string>
+    <string name="isskipStatusCheck_title">Skip Status Check</string>
+    <string name="isskipStatusCheck_value">Select Skip Status Check mode</string>
+    <string name="feedMode_title">Feed mode</string>
+    <string name="feedMode_value">Select how to feed paper</string>
+    <string name="align_title">Align</string>
+    <string name="align_value">Select the align</string>
+    <string name="paper_pos_title">Paper Position</string>
+
+    <string name="paper_pos_value">Select the Paper Position</string>
+    <string name="valign_title">Valign</string>
+    <string name="valign_value">Select the valign</string>
+    <string name="leftMargin_title">Left margin</string>
+    <string name="leftMargin_value">Set the left margin </string>
+    <string name="topMargin_title">Top margin</string>
+    <string name="topMargin_value">Set the top margin </string>
+    <string name="customPaperWidth_title">Custom Paper Width</string>
+    <string name="customPaperWidth_value">Set the Width of custom Paper </string>
+    <string name="customPaperLength_title">Custom Paper Length</string>
+    <string name="customPaperLength_value">Set the Length of custom Paper </string>
+    <string name="customSetting_title">Custom Setting</string>
+
+    <string name="customSetting_value">Select a custom setting file</string>
+
+    <string name="customFeed_title">Feed Paper Setting</string>
+    <string name="customFeed_value">Set Length of Feeding Paper</string>
+
+    <string name="rjDensity_title">Density</string>
+    <string name="rjDensity_value">Select density</string>
+
+    <string name="isRotate180_title">Rotate 180</string>
+    <string name="isRotate180_value">Rotate 180</string>
+    <string name="dashLine_title">Dash Line Print</string>
+    <string name="dashLine_value">Dash Line Print</string>
+
+    <string name="isEndCut_title">End Cut</string>
+    <string name="isEndCut_value">do end cut or not</string>
+
+    <string name="isAutoCut_title">Auto Cut</string>
+    <string name="isAutoCut_value">do auto cut or not</string>
+
+    <string name="isPeelMode_title">PeelMode</string>
+    <string name="isPeelMode_value">Wait for peeling label</string>
+
+    <string name="otherSettings_title">Other Settings</string>
+    <string name="ip_mac_title">IP/MAC Address</string>
+    <string name="ip_mac_value">Set the IP/MAC Address</string>
+    <string name="alignmentSettings_title">Alignment Settings</string>
+    <string name="alignmentSettings_value">Set the Alignment Settings</string>
+    <string name="pjSettings_title">PJ Settings</string>
+    <string name="pjSettings_value">Set the PJ Settings</string>
+    <string name="pj_td_settings_title">RJ/TD Settings</string>
+    <string name="pj_td_settings_value">Set the RJ/TD Settings</string>
+    <string name="cutSettings_value">Set the Cut Settings</string>
+    <string name="cutSettings_title">Cut Settings</string>
+    <string name="noBluetoothDevice">No Bluetooth Printer Found</string>
+    <string name="button_refresh">Refresh</string>
+    <string name="button_settings">Settings</string>
+
+    <string name="button_get">Get</string>
+    <string name="button_update">Set</string>
+    <string name="text_ssp">SSP Setting</string>
+
+    <string name="text_power_saving">Power-saving</string>
+    <string name="text_net_bootmode">	Network Settings on Power On(USB only)	</string>
+
+    <string name="text_net_interface">	Selected Interface(USB only)</string>
+    <string name="text_net_ip4_staticmode">	Enable static IP Address	</string>
+
+    <string name="text_net_ipv4_static_address">	IP Address	</string>
+    <string name="text_net_subnetmask">	Subnet Mask	</string>
+
+
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="enter_event_name">Enter event name</string>
+    <string name="no_results">No Results</string>
+    <string name="delete_gif_message">Delete Gif</string>
+    <string name="menu_item_delete">מחיקה</string>
+    <string name="dialog_default_title">Here\'s a message!</string>
+
+    <string name="URL_feedback">feedback_form_new.php</string>
+    <string name="URL_getRecords">search_user/</string>
+    <string name="URL_EntryZapp">zapping/</string>
+    <string name="URL_FoodZapp">foodZapping/</string>
+    <string name="URL_register">save_onsite_user/</string>
+    <string name="URL_register_online">save_onsite_user/</string>
+    <string name="URL_update">resend_message/</string>
+
+    <string name="URL_APP_UPLoad">http://tweester.in/gif/upload.php</string>
+
+    <string name="facebook_app_id">763216350548919</string>
+    <string name="months">6 months to 1 year</string>
+
+
+    <string name="dialog_ok">Ok</string>
+    <string name="URL_brandsync">car_brand_model.php</string>
+
+
+    <string name="text_net_gateway">	Gateway	</string>
+    <string name="text_net_dns_ipv4_bootmethod">	Boot Method	</string>
+    <string name="text_net_primary_dns_ipv4address">	Primary DNS Server IP Address	</string>
+    <string name="text_net_second_dns_ipv4address">	Secondary DNS Server IP Address	</string>
+    <string name="text_net_nodenam">	Node Name	</string>
+    <string name="text_wirelessdirect_key_create_mode">	SSID/Network Key Generation(USB only)	</string>
+
+    <string name="text_wirelessdirect_ssid">	SSID(USB only)	</string>
+    <string name="text_wirelessdirect_network_key">	Network Key(Write only)(USB only)	</string>
+    <string name="text_printer_pawerofftime">	Auto Power Off(AC/DC)	</string>
+    <string name="text_printer_pawerofftime_battery">	Auto Power Off(Li-ion)	</string>
+    <string name="text_print_jpeg_halftone">	JPEG Printing Halftone	</string>
+    <string name="text_print_jpeg_scale">	JPEG Printing Scale	</string>
+    <string name="text_print_speed">	Print Speed	</string>
+    <string name="text_print_density">	Print Density	</string>
+    <string name="text_bt_isdiscoverable">	Visible to Other Devices	</string>
+    <string name="text_bt_devicename">	Bluetooth Device Name	</string>
+    <string name="text_bt_bootmode">	Bluetooth on Power On	</string>
+    <string name="text_wifi_setting">WiFi settings</string>
+    <string name="text_wirelessdirect_setting">Wireless Direct settings</string>
+    <string name="text_printer_setting">Printer settings</string>
+    <string name="text_bluetooth_setting">Bluetooth settings</string>
+    <string name="text_no_change">(NO CHANGE)</string>
+    <string name="text_no_data">(NO DATA)</string>
+    <string name="search_printer">Searching…</string>
+    <string name="close_message">Close Application</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_ok">OK</string>
+    <string name="print_busy_label">Printer is busy</string>
+    <string name="battery_failed">failed</string>
+    <string name="battery_full">Full</string>
+    <string name="battery_middle">Middle</string>
+    <string name="battery_weak">Weak</string>
+    <string name="battery_charge">Need charging</string>
+    <string name="ac_adapter">AC adapter</string>
+    <string name="progressDialogMsg_communication_start">Start communication…</string>
+    <string name="print_succeeded">Succeeded</string>
+    <string name="close_connect">closeing…</string>
+    <string name="close_apl">Close application</string>
+    <string name="bluetoothPrinterListTitle_label">Bluetooth Printer</string>
+    <string name="progressDialogMsg_transferStart">Transfer Start…</string>
+    <string name="folder_name">Folder Name</string>
+    <string name="error_input">wrong input</string>
+    <string name="msg_title_warning">Warning</string>
+    <string name="msg_title_print">Message</string>
+    <string name="button_next_print">Next Template</string>
+    <string name="cancel_printer_msg">Is cancelling, please wait</string>
+    <string name="template_encoding">Encoding:</string>
+    <string name="ptOption_value">Set the P-touch Option</string>
+    <string name="ptOption_title">P-touch Option</string>
+    <string name="halfCut_title">Half Cut(PT Only)</string>
+    <string name="halfCut_value">do half cut or not</string>
+    <string name="special_tape_title">Special tape paper(PT Only)</string>
+    <string name="special_tape_value">is special tape paper</string>
+    <string name="countries">Countries</string>
+    <string name="hint_Serach">Search</string>
+    <string name="no_data_found">No Data found.</string>
+    <string name="Url_enterUser">getqrenter</string>
+    <string name="Url_qrRedeem">getqrreedeem</string>
+    <string name="URL_sseeions">session_records</string>
+    <string name="URL_getRecords1">getUserOnspot/</string>
+    <string name="URL_update1">onspot_reedampation/</string>
+    <string name="end_title">End</string>
+    <string name="end_message">Back to Launcher</string>
+    <string-array name="courierOrganization">
+
+        <item>Bhartia</item>
+        <item>Tata</item>
+        <item>other</item>
+        <item>Non</item>
+        <item>Brax</item>
+    </string-array>
+    <string-array name="TimerCase">
+        <item>00:02:00</item>
+        <item>00:05:00</item>
+        <item>00:10:00</item>
+        <item>00:15:00</item>
+        <item>00:20:00</item>
+        <item>00:25:00</item>
+    </string-array>
+    <string-array name="orientation">
+        <item>Portrait</item>
+        <item>Landscape</item>
+    </string-array>
+    <string-array name="orientationValues">
+        <item>PORTRAIT</item>
+        <item>LANDSCAPE</item>
+    </string-array>
+    <string-array name="halfToning">
+        <item>Threshold</item>
+        <item>Pattern dithering</item>
+        <item>Error diffusion</item>
+    </string-array>
+
+    <string-array name="halfToningValues">
+        <item>THRESHOLD</item>
+        <item>PATTERNDITHER</item>
+        <item>ERRORDIFFUSION</item>
+    </string-array>
+    <string-array name="fitToPage">
+        <item>ORIGINAL</item>
+        <item>FIT_TO_PAGE</item>
+        <item>CUSTOM</item>
+    </string-array>
+    <string-array name="fitToPageValues">
+        <item>ORIGINAL</item>
+        <item>FIT_TO_PAGE</item>
+        <item>SCALE</item>
+    </string-array>
+    <string-array name="isCarbon">
+        <item>yes</item>
+        <item>no</item>
+    </string-array>
+    <string-array name="isCarbonValues">
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="mode9">
+        <item>yes</item>
+        <item>no</item>
+    </string-array>
+    <string-array name="mode9Values">
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="skipStatusCheck">
+        <item>yes</item>
+        <item>no</item>
+    </string-array>
+    <string-array name="skipStatusCheckValues">
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="printerCase">
+        <item>PJ_ROLLCASE_OFF</item>
+        <item>PJ_ROLLCASE_ON</item>
+        <item>PJ_ROLLCASE_WITH_ANTICURL</item>
+    </string-array>
+    <string-array name="printerCaseValues">
+        <item>PJ_ROLLCASE_OFF</item>
+        <item>PJ_ROLLCASE_ON</item>
+        <item>PJ_ROLLCASE_WITH_ANTICURL</item>
+    </string-array>
+    <string-array name="pjSpeedValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="pjDensityValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="feedMode">
+        <item>no feed（roll）</item>
+        <item>fixed page size feed（roll）</item>
+        <item>one page feed（cut paper）</item>
+        <item>one page feed（roll with mark）</item>
+    </string-array>
+    <string-array name="feedModeValues">
+        <item>PJ_FEED_MODE_FREE</item>
+        <item>PJ_FEED_MODE_FIXEDPAGE</item>
+        <item>PJ_FEED_MODE_ENDOFPAGE</item>
+        <item>PJ_FEED_MODE_ENDOFPAGERETRACT</item>
+    </string-array>
+    <string-array name="align">
+        <item>LEFT</item>
+        <item>CENTER</item>
+        <item>RIGHT</item>
+    </string-array>
+    <string-array name="alignValues">
+        <item>LEFT</item>
+        <item>CENTER</item>
+        <item>RIGHT</item>
+    </string-array>
+    <string-array name="valign">
+        <item>TOP</item>
+        <item>MIDDLE</item>
+        <item>BOTTOM</item>
+    </string-array>
+    <string-array name="valignValues">
+        <item>TOP</item>
+        <item>MIDDLE</item>
+        <item>BOTTOM</item>
+    </string-array>
+    <string-array name="rjDensityValues">
+        <item>-5</item>
+        <item>-4</item>
+        <item>-3</item>
+        <item>-2</item>
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="isRotate180">
+        <item>yes</item>
+        <item>no</item>
+    </string-array>
+
+    <string-array name="isRotate180Values">
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="dashLine">
+        <item>yes</item>
+        <item>no</item>
+    </string-array>
+    <string-array name="dashLineValues">
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="isPeelMode">
+        <item>yes</item>
+        <item>no</item>
+    </string-array>
+    <string-array name="isPeelModeValues">
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="isAutoCut">
+        <item>yes</item>
+        <item>no</item>
+    </string-array>
+    <string-array name="isAutoCutValues">
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="isEndCut">
+        <item>yes</item>
+        <item>no</item>
+    </string-array>
+    <string-array name="isEndCutValues">
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="bootmode_array">
+        <item>On by default	</item>
+        <item>Off by default	</item>
+        <item>Keep Current State	</item>
+        <item>@string/text_no_data</item>
+    </string-array>
+    <string-array name="bootmode_array_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item></item>
+    </string-array>
+    <string-array name="net_interface_array">
+        <item>OFF</item>
+        <item>Wireless LAN</item>
+        <item>Wireless Direct</item>
+        <item>Wireless LAN and Wireless Direct</item>
+        <item>@string/text_no_data</item>
+    </string-array>
+    <string-array name="net_interface_array_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item></item>
+    </string-array>
+    <string-array name="enable_array">
+        <item>Disable</item>
+        <item>Enable</item>
+        <item>@string/text_no_data</item>
+    </string-array>
+    <string-array name="enable_array_value">
+        <item>0</item>
+        <item>1</item>
+        <item></item>
+    </string-array>
+    <string-array name="ip_address_array">
+        <item>AUTO</item>
+        <item>BOOTP</item>
+        <item>DHCP</item>
+        <item>RARP</item>
+        <item>STATIC</item>
+        <item>@string/text_no_data</item>
+    </string-array>
+    <string-array name="ip_address_array_value">
+        <item>0</item>
+        <item>5</item>
+        <item>3</item>
+        <item>6</item>
+        <item>7</item>
+        <item></item>
+    </string-array>
+    <string-array name="dns_mode_array">
+        <item>AUTO</item>
+        <item>STATIC</item>
+        <item>@string/text_no_data</item>
+    </string-array>
+    <string-array name="dns_mode_array_value">
+        <item>2</item>
+        <item>1</item>
+        <item></item>
+    </string-array>
+    <string-array name="key_create_mode_array">
+        <item>STATIC</item>
+        <item>AUTO</item>
+        <item>@string/text_no_data</item>
+    </string-array>
+    <string-array name="key_create_mode_array_value">
+        <item>0</item>
+        <item>1</item>
+        <item></item>
+    </string-array>
+    <string-array name="bt_devicename_array">
+        <item>Not Discoverable</item>
+        <item>Discoverable</item>
+        <item>@string/text_no_data</item>
+    </string-array>
+    <string-array name="bt_devicename_array_value">
+        <item>0</item>
+        <item>1</item>
+        <item></item>
+    </string-array>
+
+    <!-- P-touch用に追加　 2013/10/01 Start -->
+    <string-array name="jpeg_halftone_array">
+        <item>Binary	</item>
+        <item>	Error Diffusion	</item>
+        <item>@string/text_no_data</item>
+    </string-array>
+    <string-array name="jpeg_halftone_array_value">
+        <item>0</item>
+        <item>1</item>
+        <item></item>
+    </string-array>
+    <string-array name="pj_density_array">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>@string/text_no_data</item>
+    </string-array>
+    <string-array name="pj_density_array_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item></item>
+    </string-array>
+    <string-array name="pj_speed_array">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>@string/text_no_data</item>
+    </string-array>
+    <string-array name="pj_speed_array_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="halfCut">
+        <item>yes</item>
+        <item>no</item>
+    </string-array>
+    <string-array name="halfCutValues">
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="specialTape">
+        <item>yes</item>
+        <item>no</item>
+    </string-array>
+    <string-array name="specialTapeValues">
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="ssp_array">
+        <item>(NO CHANGE)</item>
+        <item>Enable</item>
+        <item>Disable</item>
+    </string-array>
+    <string-array name="powermode_array">
+        <item>(NO CHANGE)</item>
+        <item>Connection time priority</item>
+        <item>Standard</item>
+        <item>Power-saving mode priority</item>
+    </string-array>
+
+
+    <string name="save_prn_path_title">Save prn file</string>
+    <string name="save_prn_path_text">Select the destination</string>
+    <string name="save_folder_title">Save the folder</string>
+    <string name="save_folder_text">Select the folder</string>
+    <string name="save_file_title">Save the file</string>
+
+    <string name="raw_mode_title">Raw mode</string>
+    <string name="raw_mode_value">Select the raw mode</string>
+
+
+    <string name="button_update_firm">Update Firm</string>
+    <string name="button_get_firmver">Get Firm Version</string>
+    <string name="button_get_mediaver">Get Media Version</string>
+    <string name="button_get_serialnum">Get Serial Number</string>
+    <string name="button_get_systemreport">Get System Report</string>
+    <string name="button_get_batteryInfo">Get Battery Info</string>
+    <string name="button_send_mediainfo">Send Media Info</string>
+    <string name="button_check_firm_file">Check Firm File Ver</string>
+    <string name="button_check_media_file">Check Media File Ver</string>
+    <string name="button_remove_template">Remove Template</string>
+    <string name="button_send_database_data">Send Database</string>
+    <string name="text_bt_auto_connection">Bluetooth Auto Connection(BT/USB)</string>
+    <string name="printer_model_title">PrinterModel</string>
+    <string name="printer_model_value">Select the printer model </string>
+    <string name="mac_address_title">MAC address</string>
+    <string name="tethering_value">Select the tethering</string>
+
+
+    <string name="text_net_used_ipv6">	IPv6 usage	</string>
+    <string name="text_net_priority_ipv6">	Priority on IPv6 address	</string>
+
+
+    <string name="text_ipv6_setting">	IPv6 settings</string>
+    <string name="text_net_ip6_staticmode">	Enable Static IPv6 Address	</string>
+    <string name="text_net_ipv6_static_address">	Static IPv6 Address	</string>
+    <string name="text_net_primary_dns_ipv6address">	Primary DNS Server IPv6 Address	</string>
+    <string name="text_net_second_dns_ipv6address">	Secondary DNS Server IPv6 Address	</string>
+    <string name="text_net_ipv6address_list">	IPv6 Address List(Read only)		</string>
+    <string name="text_net_communication_mode">	Communication Mode	</string>
+    <string name="text_net_ssid">	SSID	</string>
+    <string name="text_net_channel">	Channel	</string>
+    <string name="text_net_authentication_method">	Authentication Method	</string>
+    <string name="text_net_encryption_mode">	Encryption Mode	</string>
+    <string name="text_net_wepkey">	WEP Key(Write only)	</string>
+    <string name="text_net_passphrase">	Passphrase(Write only)	</string>
+    <string name="text_net_user_Id">	User ID(Write only)	</string>
+    <string name="text_net_password">	Password(Write only)	</string>
+
+
+    <string name="text_printer_power_off_time">	Auto Power Off	</string>
+    <string name="text_printer_power_off_time_battery">	Auto Power Off(Li-ion)	</string>
+
+
+    <string-array name="communication_mode_array">
+        <item>Ad hoc</item>
+        <item>Infrastructure</item>
+        <item>@string/text_no_data</item>
+    </string-array>
+    <string-array name="communication_mode_array_value">
+        <item>2</item>
+        <item>1</item>
+        <item></item>
+    </string-array>
+
+
+    <string-array name="authentication_method_array">
+        <item>Open System</item>
+        <item>Shared Key</item>
+        <item>WPA/WPA2-PSK	</item>
+        <item>LEAP CKIP	</item>
+        <item>EAP-FAST/NONE	</item>
+        <item>EAP-FAST/MS-CHAPv2</item>
+        <item>EAP-FAST/GTC</item>
+        <item>PEAP/MS-CHAPv2</item>
+        <item>PEAP/GTC</item>
+        <item>EAP-TTLS/CHAP</item>
+        <item>EAP-TTLS/MS-CHAP</item>
+        <item>EAP-TTLS/MS-CHAPv2</item>
+        <item>EAP-TTLS/PAP TKIP</item>
+        <item>EAP-TLS</item>
+        <item>@string/text_no_data</item>
+    </string-array>
+    <string-array name="authentication_method_array_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="net_encryptionmode_array">
+        <item>None</item>
+        <item>WEP</item>
+        <item>TKIP+AES</item>
+        <item>AES</item>
+        <item>CKIP</item>
+        <item>TKIP</item>
+        <item>@string/text_no_data</item>
+    </string-array>
+    <string-array name="net_encryptionmode_array_value">
+        <item>1</item>
+        <item>2</item>
+        <item>8</item>
+        <item>4</item>
+        <item>5</item>
+        <item>3</item>
+        <item></item>
+    </string-array>
+    <string-array name="density_array_value">
+        <item>-5</item>
+        <item>-4</item>
+        <item>-3</item>
+        <item>-2</item>
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item></item>
+    </string-array>
+    <string name="paper_size_title">Paper size</string>
+    <string name="paper_size_value">Select the paper size </string>
+    <string-array name="density_array">
+        <item>-5</item>
+        <item>-4</item>
+        <item>-3</item>
+        <item>-2</item>
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>@string/text_no_data</item>
+    </string-array>
+    <string-array name="orientation_values">
+        <item>PORTRAIT</item>
+        <item>LANDSCAPE</item>
+    </string-array>
+    <string name="scale_value_title">Scale value</string>
+    <string name="scale_value_value">Select the scale value </string>
+
+    <string name="fit_to_page_value">Select if fitting to page </string>
+    <string name="fit_to_page_title">Fit to page</string>
+    <string name="overwrite_title">Overwrite the file</string>
+    <string name="overwrite_value">Select the overwrite mode </string>
+    <string name="is_skip_status_check_value">Select Skip Status Check mode</string>
+    <string name="is_skip_status_check_title">Skip Status Check</string>
+    <string name="check_print_end_title">Check the print end</string>
+    <string name="check_print_end_value">Check the print end</string>
+
+    <string name="trim_tape_after_data_title">Cutting zero lines </string>
+    <string name="trim_tape_after_data_value">Select the cutting zero lines</string>
+    <string-array name="check_print_end">
+        <item>Not check</item>
+        <item>Skip last page</item>
+        <item>Check</item>
+    </string-array>
+    <string name="number_of_copies_title">Number of copies</string>
+    <string name="number_of_copies_value">Set the number of copies </string>
+    <string name="halftoning_value">Select the half toning method </string>
+    <string-array name="fit_to_page_values">
+        <item>ORIGINAL</item>
+        <item>FIT_TO_PAGE</item>
+        <item>SCALE</item>
+        <item>FIT_TO_PAPER</item>
+    </string-array>
+
+    <string-array name="check_print_end_values">
+        <item>CPE_NO_CHECK</item>
+        <item>CPE_SKIP_LAST</item>
+        <item>CPE_CHECK</item>
+    </string-array>
+    <string-array name="chanel_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>@string/text_no_data</item>
+    </string-array>
+    <string-array name="chanel_array_value">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item />
+    </string-array>
+
+    <string name="left_margin_title">Left margin</string>
+    <string name="left_margin_value">Set the left margin </string>
+    <string name="top_margin_title">Top margin</string>
+    <string name="top_margin_value">Set the top margin </string>
+    <string name="pj_settings_value">Set the PJ Settings</string>
+    <string-array name="valign_values">
+        <item>TOP</item>
+        <item>MIDDLE</item>
+        <item>BOTTOM</item>
+    </string-array>
+    <string name="pj_settings_title">PJ Settings</string>
+    <string-array name="work_path_entries">
+        <item>Unspecified</item>
+        <item>In-app folder</item>
+        <item>External folder </item>
+    </string-array>
+
+    <string name="sendTimeout_value">Set transmission waiting time</string>
+    <string name="sendTimeout_title">Transmission waiting time</string>
+    <string name="receiveTimeout_title">Reception waiting time</string>
+    <string name="receiveTimeout_value">Set reception waiting time </string>
+    <string name="connectionTimeout_title">Connect waiting time</string>
+    <string name="connectionTimeout_value">Set connect waiting time </string>
+    <string name="close_wait_time_value">Close Time-out period</string>
+    <string name="close_wait_time_title">Set close waiting time</string>
+    <string-array name="pj_density_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string name="is_carbon_title">Carbon</string>
+
+    <string name="pj_density_value">Select the PJ density</string>
+    <string name="is_carbon_value">Select the carbon</string>
+    <string name="alignment_settings_value">Set the Alignment Settings</string>
+    <string name="alignment_settings_title">Alignment Settings</string>
+    <string name="feed_mode_title">Feed mode</string>
+    <string name="feed_mode_value">Select how to feed paper</string>
+    <string name="pj_paper_kind_title">Paper Kind</string>
+    <string name="pj_paper_kind_value">Select paper kind</string>
+    <string-array name="feed_mode_values">
+        <item>PJ_FEED_MODE_FREE</item>
+        <item>PJ_FEED_MODE_FIXEDPAGE</item>
+        <item>PJ_FEED_MODE_ENDOFPAGE</item>
+        <item>PJ_FEED_MODE_ENDOFPAGERETRACT</item>
+    </string-array>
+    <string name="pj_density_title">PJ Density</string>
+    <string name="custom_paper_width_value">Set the Width of custom Paper </string>
+    <string name="custom_paper_length_title">Custom Paper Length</string>
+    <string name="custom_paper_length_value">Set the Length of custom Paper </string>
+    <string name="custom_setting_title">Custom Setting (File)</string>
+    <string name="custom_setting_value">Select a custom setting file</string>
+    <string name="custom_manual_setting_title">Custom Setting (Manual)</string>
+    <string name="custom_manual_setting_value">Input a custom paper parameter</string>
+
+    <string-array name="feed_mode">
+        <item>no feed（roll）</item>
+        <item>fixed page size feed（roll）</item>
+        <item>one page feed（cut paper）</item>
+        <item>one page feed（roll with mark）</item>
+    </string-array>
+
+    <string name="button_multi_print">Multi Print</string>
+
+    <string name="halftoning_title">Half toning</string>
+
+    <string-array name="printer_case">
+        <item>PJ_ROLLCASE_OFF</item>
+        <item>PJ_ROLLCASE_ON</item>
+        <item>PJ_ROLLCASE_WITH_ANTICURL</item>
+    </string-array>
+    <string-array name="printer_case_values">
+        <item>PJ_ROLLCASE_OFF</item>
+        <item>PJ_ROLLCASE_ON</item>
+        <item>PJ_ROLLCASE_WITH_ANTICURL</item>
+    </string-array>
+    <string-array name="pj_speed_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string name="pj_speed_title">PJ Speed</string>
+    <string name="pj_speed_value">Select the PJ speed</string>
+    <string name="printer_case_title">Printer case</string>
+    <string name="printer_case_value">Select the printer case</string>
+    <string name="print_quality_title">Print quality</string>
+    <string name="print_quality_value">Select the quality</string>
+    <string name="custom_paper_width_title">Custom Paper Width</string>
+    <string name="enable_manual_custom_settings_title">Enable Manual Setting</string>
+    <string name="enable_manual_custom_settings_value" />
+    <string name="rj_paper_kind_title">Paper Kind</string>
+    <string name="rj_paper_kind_value">Select a paper kind</string>
+    <string-array name="rj_paper_kind_entries">
+        <item>Roll</item>
+        <item>Die Cut</item>
+        <item>Marked Roll</item>
+    </string-array>
+    <string-array name="rj_paper_kind_entryValues">
+        <item>ROLL</item>
+        <item>DIE_CUT</item>
+        <item>MARKED_ROLL</item>
+    </string-array>
+    <string name="rj_paper_width_title">Paper Width</string>
+    <string name="rj_paper_width_value">Set the paper width</string>
+    <string name="rj_paper_length_title">Paper Length</string>
+    <string name="rj_paper_length_value">Set the paper length</string>
+    <string name="rj_paper_right_margin_title">Right Margin</string>
+    <string name="rj_paper_right_margin_value">Set the right margin</string>
+    <string name="rj_paper_left_margin_title">Left Margin</string>
+    <string name="rj_paper_left_margin_value">Set the left margin</string>
+    <string name="rj_paper_top_margin_title">Top Margin</string>
+    <string name="rj_paper_top_margin_value">Set the top margin</string>
+    <string name="rj_paper_bottom_margin_title">Bottom Margin</string>
+    <string name="rj_paper_bottom_margin_value">Set the bottom margin</string>
+    <string name="rj_paper_label_pitch_title">Label Pitch</string>
+    <string name="rj_paper_label_pitch_value">Set the label pitch</string>
+    <string name="rj_paper_mark_position_title">Mark Position</string>
+    <string name="rj_paper_mark_position_value">Set the mark position</string>
+    <string name="rj_paper_mark_height_title">Mark Height</string>
+    <string name="rj_paper_mark_height_value">Set the mark height</string>
+    <string name="rj_paper_unit_title">Unit</string>
+    <string name="rj_paper_unit_value">Select the unit</string>
+    <string-array name="rj_paper_unit_entries">
+        <item>inch</item>
+        <item>mm</item>
+    </string-array>
+    <string-array name="rj_paper_unit_entryValues">
+        <item>Inch</item>
+        <item>Mm</item>
+    </string-array>
+    <string name="custom_feed_title">Feed Paper Setting</string>
+    <string name="custom_feed_value">Set Length of Feeding Paper</string>
+    <string name="density_title">Density</string>
+    <string name="density_value">Select density</string>
+    <string-array name="density_values">
+        <item>-5</item>
+        <item>-4</item>
+        <item>-3</item>
+        <item>-2</item>
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string name="is_rotate180_title">Rotate 180</string>
+    <string name="is_rotate180_value">Rotate 180</string>
+
+    <string name="dash_line_title">Dash Line Print</string>
+    <string name="dash_line_value">Dash Line Print</string>
+    <string name="is_end_cut_title">End Cut</string>
+    <string name="is_end_cut_value">do end cut or not</string>
+    <string name="is_auto_cut_title">Auto Cut</string>
+    <string name="is_auto_cut_value">do auto cut or not</string>
+    <string name="is_peel_mode_title">PeelMode</string>
+    <string name="is_peel_mode_value">Wait for peeling label</string>
+
+    <string name="cut_settings_value">Set the Cut Settings</string>
+    <string name="cut_settings_title">Cut Settings</string>
+    <string name="cutSettingsPT_P3_value">Set the Cut Settings</string>
+    <string name="cutSettingsPT_P3_title">PT-P3 Cut Settings</string>
+
+
+    <string-array name="print_quality_array">
+        <item>LOW_RESOLUTION</item>
+        <item>NORMAL</item>
+        <item>DOUBLE_SPEED</item>
+        <item>HIGH_RESOLUTION</item>
+    </string-array>
+    <string-array name="print_quality_value">
+        <item>LOW_RESOLUTION</item>
+        <item>NORMAL</item>
+        <item>DOUBLE_SPEED</item>
+        <item>HIGH_RESOLUTION</item>
+    </string-array>
+
+    <string name="half_cut_title">Half Cut(PT Only)</string>
+    <string name="half_cut_value">do half cut or not</string>
+    <string name="cut_mark_title">Cut Mark</string>
+    <string name="cut_mark_value">do cut mark or not</string>
+    <string name="label_margin_title">Mergine</string>
+    <string name="label_margin_value">Select Mergine</string>
+    <string name="URL_Allot">updateallot/</string>
+
+
+    <string name="align_form">align</string>
+    <string name="align_left">left</string>
+    <string name="align_mid">middle</string>
+    <string name="align_right">right</string>
+
+    <string name="type_text">text typeface</string>
+    <string name="sunmi_font">Sunmi monospace</string>
+    <string name="custom_font">Custom typeface</string>
+
+    <string name="toast_1">Transaction print,use the AIDL mode!</string>
+    <string name="toast_2">The service has been disconnected!</string>
+    <string name="toast_3">Bluetooth device is unavailable</string>
+    <string name="toast_4">Bluetooth device not detected. Please open Bluetooth!</string>
+    <string name="toast_5">Not Found InnterPrinter!</string>
+    <string name="toast_6">Bluetooth connect failed!</string>
+    <string name="toast_7"> Only a single Qr code is printed for the AIDL mode</string>
+    <string name="toast_8">Now QrCode size must be less than 7!</string>
+    <string name="toast_9">BarCode type or conent error!</string>
+    <string name="toast_10">Please set the printer as black label mode!</string>
+    <string name="toast_11">Settings->System->Advanced->InnerPrinter-> set black mark
+        function</string>
+    <string name="toast_12">Please set the printer to label mode!</string>
+    <string name="characterset">char set</string>
+    <string name="size_text">text size</string>
+    <string name="type_text1">text typeface</string>
+    <string name="bold_text">bold</string>
+    <string name="underline_text">underline</string>
+    <string name="loading">Loading...</string>
+    <string name="default_error">Error</string>
+    <string name="countrycode">Country Code</string>
+    <string name="mannual_txt">Please enter unique code to search manually</string>
+    <string name="warning_pin_length">Please enter 4 digit pin</string>
+    <string name="warning_pin_emplty">Please enter pin</string>
+    <string name="online_redemption">Online Redemption</string>
+    <string name="onsite_registration">Onsite Registration</string>
+    <string name="zapping">Zapping</string>
+    <string name="Search_for_Print">Search For Print</string>
+    <string name="profile_settings">Profile Settings</string>
+    <string name="select_printer">Select Printer</string>
+    <string name="select_font">Select Font Family</string>
+    <string name="currently_selected">Currently Selected</string>
+    <string name="choose_font"><u>Choose Font</u></string>
+    <string name="choose_printer"><u>Choose Printer</u></string>
+    <string name="brother_printer">Brother Printer</string>
+    <string name="sunmiV2sPrinter_printer">Sunmi</string>
+    <string name="other_printer">Other Printer (HP Laser 1020/Cannon TS300 etc.)</string>
+    <string name="enter_name_mobile">Enter Name/Mobile Number/Company Name</string>
+    <string name="are_you_sure">Are you sure \n you want to logout !</string>
+
+    <string name="select_card">Print Contact Card </string>
+    <string name="diy_scanner">Diy Scanner</string>
+
+    <string name="scan_your_code">Scan Your QR Code</string>
+    <string name="scan_your_code1">SCAN YOUR\nM-BADGE HERE</string>
+    <string name="show_your_qr"><![CDATA[Show your QR code & print the badge]]></string>
+    <string name="show_your_qr1"><![CDATA[Show your QR code & get Access]]></string>
+    <string name="inter_font">Inter Font</string>
+    <string name="poppins_font">Poppins Font</string>
+    <string name="play_fair">Play Fair</string>
+    <string name="roboto_font">Robot Font</string>
+    <string name="welcometo">WELCOME TO</string>
+
+    <string name="my_app_name">Label</string>
+    <string name="new_and_select_label">New or Select Labels</string>
+    <string name="no_connect_blue_tooth">Bluetooth not connected</string>
+    <string name="new_label">new label</string>
+    <string name="print_label">print label</string>
+    <string name="fast_label">Quick printing</string>
+    <string name="label_mode">Tag template</string>
+    <string name="label">Label</string>
+    <string name="insert">insert</string>
+    <string name="attribute">attribute</string>
+    <string name="content">content</string>
+    <string name="back">Return</string>
+    <string name="printf_blue_list">Printer list</string>
+    <string name="template_list">Template list</string>
+    <string name="printf_blue_list_search">search</string>
+    <string name="printf_blue_list_stop">Stop it</string>
+    <string name="main_title">Printf</string>
+    <string name="label_attribute">Label attribute</string>
+    <string name="data_content">Data content</string>
+    <string name="label_name">Label name</string>
+    <string name="label_w">Tag width</string>
+    <string name="label_h">Label height</string>
+    <string name="label_interval">Label interval</string>
+    <string name="label_printf_direction">Printing direction</string>
+    <string name="data_type">data type</string>
+    <string name="label_paper_interval">Paper spacing</string>
+    <string name="label_paper_consecutively">Continuous paper</string>
+    <string name="label_paper_location_hole">Locating hole</string>
+    <string name="label_paper_clearance_paper">Interstitial paper</string>
+    <string name="label_paper_black">Black Peugeot</string>
+    <string name="interval_length">Interval length</string>
+    <string name="picture">picture</string>
+    <string name="background_picture">Background picture</string>
+    <string name="picture_name">Picture name</string>
+    <string name="no_picture">Unbound background picture</string>
+    <string name="select_picture">Select pictures</string>
+    <string name="clear_picture">Clear background</string>
+    <string name="printf_migration">side margin</string>
+    <string name="left_distance">left</string>
+    <string name="right_distance">Right margin</string>
+    <string name="no">nothing</string>
+    <string name="manual_input">Manual input</string>
+    <string name="gradient_of_data">Variable data</string>
+    <string name="current_content">Current content</string>
+    <string name="pass_the_variable">Recursive variable</string>
+    <string name="word_space">Word spacing</string>
+    <string name="gradient_of_the_number">Variable number</string>
+    <string name="horizontal_center">Horizontal position centered</string>
+    <string name="vertical_center">Vertical position centered</string>
+    <string name="rotation_angle">Rotation angle</string>
+    <string name="qr_code">QR code</string>
+    <string name="qc_code">One dimensional code</string>
+    <string name="typeface">Typeface</string>
+    <string name="error_correction_level">Error Correct Level</string>
+    <string name="text_position">Text location</string>
+    <string name="no_text">No text</string>
+    <string name="low">low</string>
+    <string name="medium">in</string>
+    <string name="height">high</string>
+    <string name="strong">strong</string>
+    <string name="cancel">cancel</string>
+    <string name="determine">Determine</string>
+    <string name="please_improve_the_parameters">Please improve parameters!</string>
+    <string name="set_label_content">Scope: 1 - 1000, unit: mm</string>
+    <string name="company_mm">Unit: millimeter.</string>
+    <string name="abnormal_data">Data abnormity</string>
+    <string name="please_enter_content">Please input contents</string>
+    <string name="current_single">Currently, it is a radio mode.</string>
+    <string name="current_more">Currently in multiple-choice mode</string>
+    <string name="single">Single election</string>
+    <string name="more">Multiple selection</string>
+    <string name="position_size">Location size</string>
+    <string name="position_left">Position left</string>
+    <string name="position_top">Location upper</string>
+    <string name="position_w">Location width</string>
+    <string name="position_h">Location high</string>
+    <string name="horizontal_position">Horizontal position</string>
+    <string name="vertical_position">Vertical position</string>
+    <string name="barcode_above">Above barcode</string>
+    <string name="barcode_below">Underneath barcode</string>
+    <string name="typeface_name">Font name</string>
+    <string name="bar_code">bar code</string>
+    <string name="typeface_size">font size</string>
+    <string name="align_text">align text</string>
+    <string name="center">Centered</string>
+    <string name="left_center">be at the left side</string>
+    <string name="right_center">be at the right</string>
+    <string name="stretching">stretching</string>
+    <string name="size">Size</string>
+    <string name="font_too_small">The font is too small.</string>
+    <string name="connection_success">Successful connection</string>
+    <string name="connection_fail">connection failed</string>
+    <string name="connection_close">Connection closure</string>
+    <string name="text">text</string>
+    <string name="one_double">1 times</string>
+    <string name="one_tow_double">1.2 times</string>
+    <string name="one_five_double">1.5 times</string>
+    <string name="tow_double">2 times</string>
+    <string name="custom">custom</string>
+    <string name="row_spacing">Row spacing</string>
+    <string name="save_mistake">Save error</string>
+    <string name="save_success">Save successfully</string>
+    <string name="do_you_need_to_keep_it">Do you need to save it?</string>
+    <string name="prompt">Tips</string>
+    <string name="again_reflection">Think again</string>
+    <string name="save">Preservation</string>
+    <string name="no_save">No preservation</string>
+    <string name="data_error">Data error</string>
+    <string name="please_input_name">Please input name.</string>
+    <string name="name">Name</string>
+    <string name="link">line</string>
+    <string name="newly_build">Newly build</string>
+    <string name="rectangle">rectangle</string>
+    <string name="table">form</string>
+    <string name="data">date</string>
+    <string name="open">open</string>
+    <string name="as_save">Save as</string>
+    <string name="copy">Copy</string>
+    <string name="lock">locking</string>
+    <string name="printf">Printing</string>
+    <string name="upload">upload</string>
+    <string name="line">line</string>
+    <string name="line_w">line width</string>
+    <string name="line_h">Line height</string>
+    <string name="please_connect_bluetooth">Please connect Bluetooth first!</string>
+    <string name="print_number">Printing number</string>
+    <string name="please_input_print_number">Please enter the number of sheets you want to print.</string>
+    <string name="print_now">Printing</string>
+    <string name="connect_now">Connecting...</string>
+    <string name="bluetooth_disconnect">Bluetooth connection has been disconnected</string>
+    <string name="bluetooth_close">Bluetooth has been turned off.</string>
+    <string name="system_template">System template</string>
+    <string name="own_save_template">Saved templates</string>
+    <string name="line_position">Line direction</string>
+    <string name="vertical">vertical</string>
+    <string name="horizontal">level</string>
+    <string name="start_search">Searching for...</string>
+    <string name="stop_search">Search completed</string>
+    <string name="permissions_are_rejected">You need to open permissions before you can use the "save" and "save as" functions</string>
+    <string name="to_set_up">To set up</string>
+    <string name="permissions_are_rejected_bluetooth">You need to open permissions before you can use Bluetooth Scan</string>
+    <string name="delete_file_prompt">You can\'t reply after deleting the template!</string>
+    <string name="already_paired">paired</string>
+    <string name="unpaired">unpaired</string>
+    <string name="nearby_bluetooth">Nearby Bluetooth</string>
+    <string name="current_printer">Current printer</string>
+    <string name="modify">modify</string>
+    <string name="address">address</string>
+    <string name="name_colon">Name:</string>
+    <string name="address_colon">Address:</string>
+    <string name="bluetooth_is_being_connected">Bluetooth is connected, please wait a minute.</string>
+    <string name="bluetooth_name">Bluetooth name</string>
+    <string name="please_input_bluetooth_name">Please enter Bluetooth name</string>
+    <string name="setting">Set up</string>
+    <string name="multilingual">Multilingual</string>
+    <string name="current_version">current version</string>
+    <string name="please_select_language">Please enter the language of your choice?</string>
+    <string name="please_select_folder">Please select the folder you saved as</string>
+    <string name="chinese">Chinese</string>
+    <string name="english">English</string>
+    <string name="traditional_chinese">Traditional Chinese</string>
+    <string name="japanese">Japanese</string>
+    <string name="korean">Korean</string>
+    <string name="spanish">Spanish</string>
+    <string name="french">French</string>
+    <string name="coming_soon">Coming soon</string>
+    <string name="printer_professional_manufacturer">Printer Professional Manufacturer</string>
+    <string name="chang_languge_pro">Replacement of the language will restart the application!</string>
+    <string name="default_">default</string>
+    <string name="edit_the_picture">Do you want to edit pictures?</string>
+    <string name="to_cut">To edit</string>
+    <string name="do_not_cut">Don\'t edit.</string>
+    <string name="save_now">It\'s being saved.. Please wait a minute uuuuuuuuuu</string>
+    <string name="load_now">Loading in progress... Just a moment, please.</string>
+    <string name="delete">delete</string>
+    <string name="threshold">threshold</string>
+    <string name="two_value_pro">Default: 128, range: 0 - 255. If you do not understand this parameter, it is recommended not to adjust!</string>
+    <string name="printf_concentration">threshold</string>
+    <string name="un_lock">Unlock</string>
+    <string name="add_bitmap_compress">Compression when adding pictures</string>
+    <string name="serialize">serialize</string>
+    <string name="serialize_type">serialize</string>
+    <string name="change">change by degrees</string>
+    <string name="file">file</string>
+    <string name="select_file">Select file</string>
+    <string name="current_file_number">Current number of entries:</string>
+    <string name="please_input">Please input</string>
+    <string name="content_no_serialize">Content cannot be changed. Please enter pure numbers.</string>
+    <string name="please_select_printf_type">Please choose the printing method.</string>
+    <string name="ordinary_printf">General printing</string>
+    <string name="serialize_printf">Serialization printing</string>
+    <string name="select_file_error">Error selecting file data</string>
+    <string name="print_now_NO">Printing first</string>
+    <string name="zhang">Zhang</string>
+    <string name="printf_finish">Print out</string>
+    <string name="printf_error_check">Printing error, please check whether the printer is disconnected</string>
+    <string name="cancel_new">Canceling</string>
+    <string name="cancel_printf">cancel printing</string>
+    <string name="paper_setting">paper setting</string>
+    <string name="total_paper">All papers:</string>
+    <string name="surplus_paper">Surplus paper:</string>
+    <string name="surplus_paper_no">Surplus paper</string>
+    <string name="already_printf_paper">Printing paper:</string>
+    <string name="please_total_paper">Please enter your paper number.</string>
+    <string name="setting_paper_pro">Tip: Click OK to recalculate based on your settings</string>
+    <string name="label_no_content">Label free</string>
+    <string name="time_format">Yyyy-MM-dd HH:mm</string>
+    <string name="printf_type">Printing mode:</string>
+    <string name="print_number_colon">Print number:</string>
+    <string name="content_to_long">The content is too long.</string>
+    <string name="chang_bluetooth_name_success">Successful change of Bluetooth name, effective after restarting the printer</string>
+    <string name="chang_bluetooth_name_fail">Change Bluetooth name failed, you can restart the printer and try again</string>
+    <string name="chang_bluetooth_name_now">The Bluetooth name is being changed.. Please wait a moment uuuuuuuuuuu</string>
+
+</resources>
